@@ -23,7 +23,11 @@ def remove_duplicates(nodes):
 urls = [
     "https://raw.githubusercontent.com/fighter2011/aggregator/main/aggregate/data/proxies.yaml",
     "https://raw.githubusercontent.com/bibistellar/aggregator/main/data/proxies.yaml",
-    "https://raw.githubusercontent.com/harrylisen/aggregator/main/aggregate/data/proxies.yaml"
+    "https://raw.githubusercontent.com/harrylisen/aggregator/main/aggregate/data/proxies.yaml",
+    "https://raw.githubusercontent.com/zzr2002314/aggregator/master/aggregate/data/proxies.yaml",
+    "https://raw.githubusercontent.com/dreamtonight/vpn/master/data/proxies.yaml",
+    "https://raw.githubusercontent.com/xnic888/aggregator/main/aggregate/data/proxies.yaml",
+    "https://pastebin.com/raw/grshqq71"
 ]
 
 # 加载和整合数据
