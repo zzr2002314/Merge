@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用GitHub提供的默认token进行checkout
 
       - name: Set up Python
         uses: actions/setup-python@v3
@@ -39,5 +41,5 @@ jobs:
       - name: Commit and push changes
         run: |
           git add ./data1/aggregated_proxies.yaml  # 添加变更文件
-          git commit -m "Updated proxies list with deduplication" || echo "No changes to commit"
-          git push
+          git commit -m "Updated proxies list with deduplication"
+          git push  # 推送更改到GitHub
