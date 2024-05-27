@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 7 * * *'  # 每天UTC时间7点执行
     - cron: '0 17 * * *' # 每天UTC时间17点执行
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   aggregate_and_commit:
@@ -27,9 +27,9 @@ jobs:
         run: |
           python aggregate_proxies.py  # 运行合并去重脚本
 
-      - name: Move file to data folder
+      - name: Move file to data1 folder
         run: |
-          mv aggregated_proxies.yaml ./data/aggregated_proxies.yaml  # 移动文件到data文件夹
+          mv aggregated_proxies.yaml ./data1/aggregated_proxies.yaml  # 移动文件到data1文件夹
 
       - name: Configure Git
         run: |
@@ -38,6 +38,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add ./data/aggregated_proxies.yaml  # 添加变更文件
+          git add ./data1/aggregated_proxies.yaml  # 添加变更文件
           git commit -m "Updated proxies list with deduplication" || echo "No changes to commit"
           git push
