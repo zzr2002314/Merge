@@ -1,0 +1,43 @@
+name: Aggregate Proxies and Commit
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # 每天UTC时间7点执行
+    - cron: '0 17 * * *' # 每天UTC时间17点执行
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  aggregate_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml requests
+
+      - name: Aggregate and deduplicate proxies
+        run: |
+          python aggregate_proxies.py  # 运行合并去重脚本
+
+      - name: Move file to data folder
+        run: |
+          mv aggregated_proxies.yaml ./data/aggregated_proxies.yaml  # 移动文件到data文件夹
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Commit and push changes
+        run: |
+          git add ./data/aggregated_proxies.yaml  # 添加变更文件
+          git commit -m "Updated proxies list with deduplication" || echo "No changes to commit"
+          git push
