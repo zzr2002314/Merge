@@ -33,8 +33,12 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-      - name: Commit and push changes
+      - name: Commit and push changes if there are any
         run: |
-          git add ./data1/筛选和去重后的代理.yaml  # 添加变更文件
-          git commit -m "Updated filtered and deduplicated proxies list"
-          git push  # 推送更改到GitHub
+          git add data1/aggregated_proxies.yaml  # 添加变更文件
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Updated filtered and deduplicated proxies list"
+            git push  # 推送更改到GitHub
+          else
+            echo "No changes to commit"
+          fi
