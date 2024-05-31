@@ -40,7 +40,7 @@ def main():
     
     output_dir = 'data1'
     os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, '筛选和去重后的代理.yaml')
+    output_file = os.path.join(output_dir, 'aggregated_proxies.yaml')
     
     with open(output_file, 'w', encoding='utf-8') as f:
         yaml.dump({'proxies': unique_nodes}, f, allow_unicode=True)
