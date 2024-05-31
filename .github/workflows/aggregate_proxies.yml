@@ -28,10 +28,6 @@ jobs:
         run: |
           python filter_proxies.py  # 运行筛选和去重脚本
 
-      - name: Move file to data1 folder
-        run: |
-          mv data1/筛选和去重后的代理.yaml ./data1/筛选和去重后的代理.yaml  # 确保文件移动到正确的目录
-
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions Bot"
