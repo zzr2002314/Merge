@@ -1,112 +1,468 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   name: 日本1
-  password: bf71a672-d2be-4ff0-b4d9-90fe98f1d07c
-  port: 7000
-  server: jp.xfsnet.com
-  type: ss
+  network: ws
+  port: 28365
+  server: 36.213.31.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: sakura8
+- alterId: 0
+  cipher: auto
   name: 日本2
-  password: bf71a672-d2be-4ff0-b4d9-90fe98f1d07c
-  port: 7001
-  server: jp.xfsnet.com
+  network: ws
+  port: 28365
+  server: 36.150.27.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: sakura8
+- alterId: 0
+  cipher: auto
+  name: 日本3
+  network: ws
+  port: 23561
+  server: 36.213.31.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awsjpB
+- cipher: chacha20-ietf-poly1305
+  name: 美国-新加坡-解锁NETFLIX及
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 41617
+  server: yydscyjone.onemg.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本3
-  password: bf71a672-d2be-4ff0-b4d9-90fe98f1d07c
-  port: 7002
-  server: jp.xfsnet.com
+  name: 日本-VIP1
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 41617
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP2
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 23397
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP3
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 36733
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP4
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 15349
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP5
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 11125
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP6
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 41435
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP7
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 44910
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-VIP8
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 29989
+  server: yydscyjone.onemg.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港1-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 11131
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港2-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 17081
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港3-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 13073
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港4-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 15399
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港5-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 11135
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港6-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 18327
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港7-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 11137
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港8-PLUS
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 30853
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP1
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 11381
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP2
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 44377
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP3
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 47023
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP4
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 39687
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP5
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 23939
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP6
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 48933
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-VIP7
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 14480
+  server: yydscyjone.onemg.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡1
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 36602
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 新加坡2
+  network: ws
+  port: 80
+  server: sg0214551.ludou.us.kg
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e644f97-f7a6-448b-88c7-76234dbd944f
+  ws-opts:
+    headers:
+      Host: sg002afa.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 新加坡3
+  network: ws
+  port: 23563
+  server: 36.213.31.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awssgB
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡4
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 36729
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡5
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 19711
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡6
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 42512
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 韩国1
+  network: ws
+  port: 23562
+  server: 36.213.31.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awskrB
+- alterId: 0
+  cipher: auto
+  name: 韩国2
+  network: ws
+  port: 23562
+  server: 36.150.27.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awskrB
+- alterId: 0
+  cipher: auto
+  name: 韩国3
+  network: ws
+  port: 43562
+  server: 36.213.31.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awskrB
+- cipher: chacha20-ietf-poly1305
+  name: 韩国4
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 40674
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国5
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 31266
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾1
+  port: 45078
+  server: haa.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
+- alterId: 0
+  cipher: auto
+  name: 台湾2
+  port: 45077
+  server: xdd.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
+- cipher: chacha20-ietf-poly1305
+  name: 台湾3
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 41901
+  server: onecyjtg.oneyyds.online
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾4
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 34793
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾5
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 18383
+  server: onecyjtg.fengyyds.site
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 日本4
+  network: ws
+  port: 23561
+  server: 36.150.27.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awsjpB
+- cipher: chacha20-ietf-poly1305
+  name: 日本5
+  password: 9049db01-ca90-4fc2-a5fc-555112cf2ac0
+  port: 29003
+  server: onecyjtg.oneyyds.online
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX香港01|三网|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 13490
   server: hzgg.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: LS香港01|三网|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 28921
   server: szyd.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX香港02|苏港|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 18596
   server: hzgg.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: LS香港02|苏港|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 27669
   server: szyd.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX新加坡01|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 45769
   server: hzgg.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: LS新加坡01|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 21508
   server: szyd.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX台湾|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 17791
   server: hzgg.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: LS台湾|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 29637
   server: szyd.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX日本|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 19381
   server: hzgg.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: LS日本|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 24893
   server: szyd.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX韩国|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 13666
   server: hzgg.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: LS韩国|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 48296
   server: szyd.ewenhot.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: DX尼日利亚-SS|1X
-  password: fb955dde-6d40-4f91-bc00-c497db47ae32
+  password: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   port: 19749
   server: hzgg.ewenhot.top
   type: ss
@@ -121,7 +477,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fb955dde-6d40-4f91-bc00-c497db47ae32
+  uuid: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   ws-opts:
     headers:
       Host: twnat2.dackcf1.top
@@ -136,7 +492,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fb955dde-6d40-4f91-bc00-c497db47ae32
+  uuid: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   ws-opts:
     headers:
       Host: twnat2.dackcf1.top
@@ -151,13 +507,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fb955dde-6d40-4f91-bc00-c497db47ae32
+  uuid: bf8ce24e-cd14-464d-ba39-e0f9773e6cbb
   ws-opts:
     headers:
       Host: twnat2.dackcf1.top
     path: /x2cloud?ed=2048
 - name: 韩国-三网优化2
-  password: 751d9c63-5e01-4d47-ba4f-e83989ce0159
+  password: fb2513d0-7255-4541-b3d4-5cc5d3dbe43d
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
@@ -173,185 +529,634 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: f3507607-3b10-4eaf-a9d7-58a28fa62ea3
+  uuid: ad3ebeab-f3a2-46f2-a135-e11f9054e6a1
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡03
+  password: 34665516-7610-44bc-a0b7-9477a557240c
+  port: 15627
+  server: jscm.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港01
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
+  port: 52984
+  server: pangmaoccc.sic.hk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港02
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
+  port: 35575
+  server: pangmaoccc.sic.hk
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾01
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 43723
   server: pangmaoccc.sic.hk
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港03
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
+  port: 55476
+  server: pangmaoccc.sic.hk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡01
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
+  port: 56244
+  server: mm-gzdxaa.la-chinata.hk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡02
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
+  port: 58022
+  server: pangmaoccc.sic.hk
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港04-备用
+  password: 34665516-7610-44bc-a0b7-9477a557240c
+  port: 15638
+  server: 140.249.24.237
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港05-备用
+  password: 34665516-7610-44bc-a0b7-9477a557240c
+  port: 15639
+  server: 140.249.24.237
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港07-备用
+  password: 34665516-7610-44bc-a0b7-9477a557240c
+  port: 15641
+  server: 140.249.24.237
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 香港HK01
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 56701
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港HK02
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 20034
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港HK03
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 20051
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡SG01
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 56704
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡SG02
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 56705
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡SG03
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 56706
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本JP01
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 56707
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本JP02
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 20001
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本JP03
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 20003
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本JP04
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 20005
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本JP05
-  password: 07d448d2-a551-44b1-b827-e95275f20d74
+  password: 1b1cd8bc-a758-44e6-8112-d54e7579cab8
   port: 20007
   server: gy.666666222.shop
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 香港01-专线 1X
+  port: 27817
+  server: ddos-sb.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 香港02-专线 1X
+  port: 27817
+  server: s.sh.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 香港03-专线 1X
+  port: 27817
+  server: s.hk.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 香港04-专线 1X
+  port: 27817
+  server: s.zj.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 香港05-专线 1X
+  port: 27817
+  server: s.sh1.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 香港06-专线 1X
+  port: 27817
+  server: s.js.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 新加坡01-专线 1X
+  port: 49813
+  server: ddos-sb.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 新加坡02-专线 1X
+  port: 49813
+  server: s.sh.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 新加坡03-专线 1X
+  port: 49813
+  server: s.hk.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 新加坡04-专线 1X
+  port: 49813
+  server: s.zj.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 新加坡05-专线 1X
+  port: 49813
+  server: s.sh1.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- alterId: 0
+  cipher: auto
+  name: 新加坡06-专线 1X
+  port: 49813
+  server: s.js.mangguojichang.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 29721
+  server: ddos-sb.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾02-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 29721
+  server: s.sh.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾03-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 29721
+  server: s.hk.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾04-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 29721
+  server: s.zj.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾05-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 29721
+  server: s.sh1.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾06-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 29721
+  server: s.js.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 43844
+  server: ddos-sb.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 43844
+  server: s.sh.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本03-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 43844
+  server: s.hk.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本04-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 43844
+  server: s.zj.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本05-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 43844
+  server: s.sh1.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本06-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 43844
+  server: s.js.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国01-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 23676
+  server: ddos-sb.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国02-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 23676
+  server: s.sh.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国03-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 23676
+  server: s.hk.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国04-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 23676
+  server: s.zj.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国05-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 23676
+  server: s.sh1.mangguojichang.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国06-专线 1X
+  password: 3dbb154d-b8e9-421d-a2eb-4f3c9c50f121
+  port: 23676
+  server: s.js.mangguojichang.top
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
   name: 香港|ELITE|0.1×
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 52888
   server: 01yh.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港|AKARI|沪移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 13127
   server: akarihk01.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港|AKARI|广移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 28888
   server: akarihk02.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港|EONS|沪移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 29257
   server: eonsgy.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港|EONS|广移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 29256
   server: eonsgz.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港|HKT|沪移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 47190
   server: akilehk1.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港|HKT|广移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 38949
   server: akilehkgy5.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡|AKARI|沪移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 16340
   server: akaripve1.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡|AKARI|广移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 42757
   server: akaripve2.waterwheel.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本|AKARI|沪移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 15750
   server: ttsh.xissyun.com
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本|AKARI|广移
-  password: 9da135e5-de5a-4617-9569-f87ef500e705
+  password: b77f0d05-9e2b-4b21-bb3b-745deeef0b9b
   port: 28949
   server: ttsh.xissyun.com
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港01|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35005
+  server: h-k01.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港02|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35006
+  server: h-k02.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港03|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35007
+  server: h-k03.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港04|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35008
+  server: h-k04.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35009
+  server: j-p01.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35010
+  server: j-p02.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本03|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35011
+  server: j-p03.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本04|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35012
+  server: j-p04.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35017
+  server: t-wn01.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾02|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35018
+  server: t-wn02.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾03|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35019
+  server: t-wn03.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾04|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35020
+  server: t-wn04.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国01|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35021
+  server: k-r01.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国02|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35022
+  server: k-r02.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国03|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35023
+  server: k-r03.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国04|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35024
+  server: k-r04.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡01|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35025
+  server: s-g01.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡02|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35026
+  server: s-g02.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡03|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35027
+  server: s-g03.love-english-edu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡04|1X
+  password: 1b40396a-83af-4dc7-aab8-e050bbd4e5f1
+  port: 35028
+  server: s-g04.love-english-edu.com
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: A台湾
-  password: b2a2edb2-7f67-4e29-bd71-d0dac42c8d82
+  password: 85f15312-fba9-488a-8d3a-93ea80e8df8d
   port: 37070
   server: hinet-wap.myddns.me
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: A台湾-IPV6
-  password: b2a2edb2-7f67-4e29-bd71-d0dac42c8d82
+  password: 85f15312-fba9-488a-8d3a-93ea80e8df8d
   port: 37070
   server: 2001:b030:a42d:5dcd::8b
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 台湾GCP-C
-  password: b2a2edb2-7f67-4e29-bd71-d0dac42c8d82
+  password: 85f15312-fba9-488a-8d3a-93ea80e8df8d
   port: 65530
   server: 34.81.102.110
   type: ss
@@ -366,793 +1171,392 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b2a2edb2-7f67-4e29-bd71-d0dac42c8d82
+  uuid: 85f15312-fba9-488a-8d3a-93ea80e8df8d
   ws-opts:
     headers:
       Host: dpxpg5vk2nkog.cloudfront.net
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 香港01|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35005
-  server: h-k01.love-english-edu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港02|1X
-  network: ws
-  port: 2086
-  server: apgoodpoint.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: aahk2.853782.xyz
-    path: /asdas
-- alterId: 0
-  cipher: auto
-  name: 香港03|1X
-  network: ws
-  port: 80
-  server: cdperpoint.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: atthk3ss.853782.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 香港04|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35008
-  server: h-k04.love-english-edu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 日本01|1X
-  network: ws
-  port: 2082
-  server: cf-jpc.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: cf-jp4.nicehand.top
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 日本02|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35010
-  server: j-p02.love-english-edu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 日本03|1X
-  network: ws
-  port: 2086
-  server: cdperpoint.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: jp5csa2.112592.xyz
-    path: /asdas
-- alterId: 0
-  cipher: auto
-  name: 日本04|1X
-  network: ws
-  port: 2086
-  server: gcxzewqew.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: jp44x.112592.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 台湾02|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35018
-  server: t-wn02.love-english-edu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾03|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35019
-  server: t-wn03.love-english-edu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 台湾04|1X
-  network: ws
-  port: 2086
-  server: exzjhwdxz.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: tw2cxzdsa.112592.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 韩国01|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35021
-  server: k-r01.love-english-edu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国02|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35022
-  server: k-r02.love-english-edu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国03|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35023
-  server: k-r03.love-english-edu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国04|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35024
-  server: k-r04.love-english-edu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡02|1X
-  password: 0b3ff4fe-d14c-499d-bb56-85d6ce577396
-  port: 35026
-  server: s-g02.love-english-edu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港01|0.5X
-  network: ws
-  port: 80
-  server: dfboaxm1pon.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: aahk1xxx.853782.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 香港01|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 10051
-  server: proxy10.handboy.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港02|中转|2X
-  port: 49155
-  server: proxy7.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-- cipher: chacha20-ietf-poly1305
-  name: 香港03|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 10151
-  server: proxy10.handboy.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港05|1X
-  network: ws
-  port: 2086
-  server: cf-hk.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: xzhk5.853782.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 香港05|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 10150
-  server: proxy10.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港06|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 40120
-  server: proxy12.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港07|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 50232
-  server: proxy2.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本01|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 18687
-  server: proxy16.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本02|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 22452
-  server: proxy16.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本03|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 14831
-  server: proxy21.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本04|家宽|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 23015
-  server: proxy10.handboy.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 韩国01|家宽|1X
-  network: ws
-  port: 2086
-  server: dfboaxm1pon.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: kr1xxy.553252.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 韩国01|家宽|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 13951
-  server: proxy10.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国02|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 45853
-  server: proxy4.handboy.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 韩国03|0.5X
-  network: ws
-  port: 2086
-  server: cf-point2.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  ws-opts:
-    headers:
-      Host: kr3333x.553252.xyz
-    path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 韩国03|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 35203
-  server: proxy16.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡01|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 16689
-  server: proxy21.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡02|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 35633
-  server: proxy16.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡03|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 30051
-  server: proxy16.handboy.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 新加坡04|中转|2X
-  port: 58928
-  server: proxy7.handboy.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e87aa103-e4de-4e74-a5f2-67aafd686f33
-- cipher: chacha20-ietf-poly1305
-  name: 台湾01|V6|1X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 10050
-  server: v6tw3.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾01|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 20401
-  server: proxy10.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾04|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 23337
-  server: proxy21.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 尼日利亚01|中转|2X
-  password: e87aa103-e4de-4e74-a5f2-67aafd686f33
-  port: 16089
-  server: proxy16.handboy.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 台湾 1
-  password: 7375bf01-dd5f-44a3-bb04-8f29b25191df
+  password: 41f5efd6-365a-4552-beb7-40c649c9ee92
   port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港01
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
-  port: 52984
-  server: pangmaoccc.sic.hk
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港02
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
-  port: 35575
-  server: pangmaoccc.sic.hk
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港03
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
-  port: 55476
-  server: pangmaoccc.sic.hk
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 日本01
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 59081
   server: shcua.donghui.tech
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本02
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 28549
   server: pangmaoccc.sic.hk
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本03
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 26915
   server: shcub.donghui.tech
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本04
-  password: 7375bf01-dd5f-44a3-bb04-8f29b25191df
+  password: 41f5efd6-365a-4552-beb7-40c649c9ee92
   port: 20008
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港 01 1X HKG
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49453
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港 02 1X HKG
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49455
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港 03 1X HKG
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49472
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港 04 1X HKG
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49499
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港 05 0.2X HKG
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49489
   server: east-south-asia.2.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港家宽 1X HKG
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49451
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-东京都 01 1X NRT
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49454
   server: east-north-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-东京都 02 1X NRT
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49463
   server: east-north-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-东京都 03 1X NRT
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49479
   server: east-north-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国家宽 3X ICN
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49480
   server: east-north-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 中国台湾 1X TPE
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49469
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡 01 1X SIN
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49466
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡 02 1X SIN
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49457
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡 03 1X SIN
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49464
   server: east-south-asia.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 尼日利亚 2X LOS
-  password: c9fed912-3519-48f9-b96d-edff672e7d9b
+  password: 7d6d284c-d9b8-4aec-aaf1-2841ac55ed4f
   port: 49488
   server: north-africa.1.mint-cloud.co.uk
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港丨推荐节点
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 19868
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港丨推荐节点02
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 49057
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港丨推荐节点03
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 49057
   server: 7c0685b9f0d252c6.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港01丨广东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 18641
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港01丨上海移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 36731
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港01丨广州移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 36731
   server: 7c0685b9f0d252c6.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港01丨山东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 18641
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港02丨广东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 23416
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港02丨上海移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 23416
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港02丨广州移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 23416
   server: 7c0685b9f0d252c6.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港02丨山东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 23416
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港03丨广东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 36731
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港03丨上海移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 10540
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港03丨广州移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 10540
   server: 7c0685b9f0d252c6.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港03丨山东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 36731
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本01丨山东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 18434
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本01丨上海移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 37224
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本01丨广东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 18434
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本02丨广东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 16013
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本02丨上海移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 20078
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本02丨山东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 28744
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本03丨广东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 42684
   server: wurenche55502.xiyunchen.cn
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本03丨上海移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 19863
   server: 0e8383f2446d374c.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本03丨山东移动优化
-  password: 25036a50-39c7-4b64-bb6c-defa7abe213a
+  password: a8f088c6-b120-4df7-b173-72cca89f90a1
   port: 42684
   server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港01-拥堵
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 55268
   server: hk01.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港02-拥堵
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 10473
   server: hk02.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港03-拥堵
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 31452
   server: hk2.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港04-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 20177
   server: hk3.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港05-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 43466
   server: hk4.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港06-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 49890
   server: hk06.fbyrek.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港07
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 36605
   server: hk07.fbyrek.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡01
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
-  port: 56244
-  server: mm-gzdxaa.la-chinata.hk
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 新加坡02-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 48417
   server: sgp2.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡03-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 29321
   server: sgp3.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡04-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 21080
   server: sgp4.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡05-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 20923
   server: sgp5.azxylm.top
   type: ss
@@ -1167,7 +1571,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  uuid: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   ws-opts:
     headers:
       Host: shpu6.luczua.sbs
@@ -1182,59 +1586,39 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  uuid: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   ws-opts:
     headers:
       Host: shpu07.luczua.sbs
     path: /
 - cipher: aes-256-gcm
   name: 日本02-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 43787
   server: jp2.azxylm.top
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 台湾-NF
-  password: ee2d02cb-4370-458a-9fc8-154f5c35c198
+  password: 09bcd611-7828-46e9-8b99-c8c93ac13f6c
   port: 29778
   server: tw02.azxylm.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国01
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 60352
   server: shdx.kd69.vip
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国02
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 39617
   server: gzdxmmbb.la-chinata.hk
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 台湾1
-  port: 45078
-  server: haa.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
-- alterId: 0
-  cipher: auto
-  name: 台湾2
-  port: 45077
-  server: xdd.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
 - alterId: 0
   cipher: auto
   name: 香港NO.1
@@ -1244,7 +1628,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -1254,7 +1638,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -1264,7 +1648,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -1274,7 +1658,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -1284,7 +1668,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -1294,7 +1678,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ec13af7d-4277-4c95-b26b-394790abfc84
+  uuid: a333c4db-50ea-4436-a27f-cb5d4ace188d
 - alterId: 0
   cipher: auto
   name: 香港
@@ -1304,7 +1688,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 香港 HKT NF|隧道|01×1
@@ -1314,7 +1698,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 香港 HGC NF|隧道|01×1
@@ -1324,7 +1708,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 香港 SCLOUD 隧道|01×1
@@ -1334,7 +1718,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 香港 SCLOUD 隧道|02×1
@@ -1344,7 +1728,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 香港 SCLOUD 隧道|03×1
@@ -1354,7 +1738,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 日本 大带宽 隧道|01×1
@@ -1364,7 +1748,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 日本 大带宽 隧道|02×1
@@ -1374,7 +1758,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 日本 大带宽 隧道|03×1
@@ -1384,7 +1768,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 日本 大带宽 隧道|04×1
@@ -1394,7 +1778,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 日本 大带宽 隧道|05×1
@@ -1404,7 +1788,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 新加坡 NTT 隧道|01×1
@@ -1414,7 +1798,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 新加坡 NTT 隧道|02×1
@@ -1424,7 +1808,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 台湾 动态 隧道|01×1
@@ -1434,7 +1818,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 台湾 动态 隧道|02×1
@@ -1444,7 +1828,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 台湾 动态 隧道|03×1
@@ -1454,7 +1838,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc8b60e3-2788-42d9-b787-9aaf506441c5
+  uuid: 28313184-e1b8-4f16-94ca-9e54e60e7b52
 - alterId: 0
   cipher: auto
   name: 中港隧道-香港1
@@ -1464,7 +1848,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-香港1
@@ -1474,7 +1858,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-香港2
@@ -1484,7 +1868,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-香港2
@@ -1494,7 +1878,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 香港3
@@ -1504,7 +1888,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-香港3
@@ -1514,7 +1898,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-香港3
@@ -1524,7 +1908,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-加拿大
@@ -1534,7 +1918,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-加拿大
@@ -1544,7 +1928,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-新加坡
@@ -1554,7 +1938,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-新加坡
@@ -1564,7 +1948,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-日本
@@ -1574,7 +1958,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-日本
@@ -1584,7 +1968,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-台湾
@@ -1594,7 +1978,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-台湾
@@ -1604,7 +1988,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-澳大利亚
@@ -1614,7 +1998,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-英国
@@ -1624,7 +2008,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-英国
@@ -1634,7 +2018,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-澳大利亚
@@ -1644,7 +2028,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-德国
@@ -1654,7 +2038,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-德国
@@ -1664,7 +2048,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 中港隧道-印度
@@ -1674,7 +2058,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - alterId: 0
   cipher: auto
   name: 深港专线-印度
@@ -1684,367 +2068,108 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a4784947-b2d0-443e-b015-843a38f50842
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-01
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47789
-  server: hk1.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-02
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47790
-  server: hk2.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-03
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47757
-  server: hk13.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-04
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47758
-  server: hk14.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-05
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47705
-  server: hk15.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-06
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47706
-  server: hk16.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-07
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47707
-  server: hk17.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-08
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47708
-  server: hk18.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-09
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47709
-  server: hk09.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-BASIC专线-10
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 47711
-  server: hk11.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-01
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 49901
-  server: hkp1.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-02
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 49902
-  server: hkp2.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-03
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 49903
-  server: hkp3.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-04
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 49904
-  server: hkp4.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-05
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 49905
-  server: hkp5.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-06
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48806
-  server: hkp6.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-07
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48807
-  server: hkp7.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-08
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48808
-  server: hkp8.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-09
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48809
-  server: hkp9.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港-IEPL-PRO专线-10
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48810
-  server: hkp11.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-IEPL-BASIC专线-|X2
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 41115
-  server: kr03.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-EIPL-PRO专线-|X2
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 41117
-  server: kr01.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本-IEPL-BASIC专线-01 |专用线路
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48801
-  server: jp01.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本-IEPL-BASIC专线-02 |专用线路
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48802
-  server: jp2.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本-IEPL-PRO专线-01 |专用线路
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48803
-  server: jp3.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本-IEPL-PRO专线-02 |专用线路
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48804
-  server: jp04.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本-IEPL-PRO专线-03 |专用线路
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 48805
-  server: jp05.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾-IEPL-BASIC专线-01
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 46601
-  server: tw1.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾-IEPL-PRO专线-01
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 46602
-  server: tw02.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾-IEPL-PRO专线-02
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 46603
-  server: tw03.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾-IEPL-PRO专线-03
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 46604
-  server: tw04.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾-IEPL-PRO专线-04
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 46605
-  server: tw05.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-IEPL-BASIC专线-01
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 45506
-  server: sgp01.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-IEPL-PRO专线-01
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 45507
-  server: sgp02.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-IEPL-PRO专线-02
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 45508
-  server: sgp3.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-IEPL-PRO专线-03
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 45509
-  server: sgp4.network-cdn-gw.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-IEPL-PRO专线-04
-  password: ff88e234-9384-4a15-8c19-1e5aa3463b85
-  port: 45510
-  server: sgp05.network-cdn-gw.cc
-  type: ss
-  udp: true
+  uuid: a64ef68e-faea-44e3-b722-257bb7cc103f
 - cipher: chacha20-ietf-poly1305
   name: 香港 A HK
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 21881
   server: hk1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 B HK
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 22881
   server: hk2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 C HK
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 23881
   server: hk3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本 A JP
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 47100
   server: jp1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本 B JP
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 47101
   server: jp2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本 C JP
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 19881
   server: jp3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 A KR
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35101
   server: kr1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 B KR
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35102
   server: kr2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 C KR
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35609
   server: kr3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 A TW
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35109
   server: tw1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 B TW
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35110
   server: tw2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾 C TW
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35111
   server: tw3.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡 A SG
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35105
   server: sg1.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡 B SG
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35106
   server: sg2.iepl.cooc.icu
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡 C SG
-  password: 2b39211f-fcac-4920-96c8-cc33e3becf0d
+  password: 68b6ea48-5a4f-4a77-815d-4264033daa10
   port: 35107
   server: sg3.iepl.cooc.icu
   type: ss
@@ -2059,7 +2184,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 1316bf72-d8fa-4432-9ea4-7bea0b803dd7
+  uuid: 41ba3ee1-bf2a-4100-8349-e31dce4c4168
   ws-opts:
     headers:
       Host: z2.fragranceninja.com
@@ -2074,7 +2199,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 1316bf72-d8fa-4432-9ea4-7bea0b803dd7
+  uuid: 41ba3ee1-bf2a-4100-8349-e31dce4c4168
   ws-opts:
     headers:
       Host: z2.fragranceninja.com
@@ -2088,7 +2213,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 香港
@@ -2098,7 +2223,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 香港
@@ -2108,23 +2233,23 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - name: LV1 香港1
-  password: 7255cc83-535e-4d11-89f0-53158e336bc5
+  password: 34317102-b154-4972-9103-6c0d1c4bb818
   port: 61206
   server: hk00207.alibabaokz.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: LV2 香港1
-  password: 7255cc83-535e-4d11-89f0-53158e336bc5
+  password: 34317102-b154-4972-9103-6c0d1c4bb818
   port: 61206
   server: hk00208.alibabaokz.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: LV3 香港1
-  password: 7255cc83-535e-4d11-89f0-53158e336bc5
+  password: 34317102-b154-4972-9103-6c0d1c4bb818
   port: 61206
   server: hk00209.alibabaokz.com
   skip-cert-verify: true
@@ -2139,7 +2264,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 香港2
@@ -2149,7 +2274,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 香港2
@@ -2159,7 +2284,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 香港3
@@ -2169,7 +2294,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 香港3
@@ -2179,7 +2304,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 香港3
@@ -2189,7 +2314,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 香港4
@@ -2199,7 +2324,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 香港4
@@ -2209,7 +2334,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 香港4
@@ -2219,7 +2344,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 香港5
@@ -2229,7 +2354,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 香港5
@@ -2239,7 +2364,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 香港5
@@ -2249,7 +2374,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 香港6
@@ -2259,7 +2384,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 香港6
@@ -2269,7 +2394,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 香港6
@@ -2279,7 +2404,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 台湾1
@@ -2289,7 +2414,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 台湾1
@@ -2299,7 +2424,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 台湾1
@@ -2309,7 +2434,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 台湾2
@@ -2319,7 +2444,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 台湾2
@@ -2329,7 +2454,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 台湾2
@@ -2339,7 +2464,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 日本0
@@ -2349,7 +2474,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 日本0
@@ -2359,7 +2484,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 日本0
@@ -2369,7 +2494,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 日本1
@@ -2379,7 +2504,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 日本1
@@ -2389,7 +2514,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 日本1
@@ -2399,7 +2524,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 日本2
@@ -2409,7 +2534,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 日本2
@@ -2419,7 +2544,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 日本2
@@ -2429,7 +2554,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 日本3
@@ -2439,7 +2564,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 日本3
@@ -2449,7 +2574,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 日本3
@@ -2459,9 +2584,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - name: LV1 韩国2
-  password: 7255cc83-535e-4d11-89f0-53158e336bc5
+  password: 34317102-b154-4972-9103-6c0d1c4bb818
   port: 60195
   server: kr0196.alibabaokz.com
   skip-cert-verify: true
@@ -2469,7 +2594,7 @@ proxies:
   type: trojan
   udp: true
 - name: LV2 韩国2
-  password: 7255cc83-535e-4d11-89f0-53158e336bc5
+  password: 34317102-b154-4972-9103-6c0d1c4bb818
   port: 60195
   server: kr0200.alibabaokz.com
   skip-cert-verify: true
@@ -2477,7 +2602,7 @@ proxies:
   type: trojan
   udp: true
 - name: LV3 韩国2
-  password: 7255cc83-535e-4d11-89f0-53158e336bc5
+  password: 34317102-b154-4972-9103-6c0d1c4bb818
   port: 60195
   server: kr0201.alibabaokz.com
   skip-cert-verify: true
@@ -2493,7 +2618,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 韩国4
@@ -2503,7 +2628,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 韩国5
@@ -2513,7 +2638,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 韩国5
@@ -2523,7 +2648,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 韩国5
@@ -2533,7 +2658,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 新加坡1
@@ -2543,7 +2668,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 新加坡1
@@ -2553,7 +2678,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 新加坡1
@@ -2563,7 +2688,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 新加坡3
@@ -2573,7 +2698,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 新加坡3
@@ -2583,7 +2708,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 新加坡3
@@ -2593,7 +2718,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 新加坡4
@@ -2603,7 +2728,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 新加坡4
@@ -2613,7 +2738,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 新加坡4
@@ -2623,7 +2748,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV1 新加坡6
@@ -2633,7 +2758,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV2 新加坡6
@@ -2643,7 +2768,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
 - alterId: 0
   cipher: auto
   name: LV3 新加坡6
@@ -2653,7 +2778,97 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7255cc83-535e-4d11-89f0-53158e336bc5
+  uuid: 34317102-b154-4972-9103-6c0d1c4bb818
+- alterId: 0
+  cipher: auto
+  name: 日本中转3号
+  network: ws
+  port: 14000
+  server: transfer3.51jiasu.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a22bd880-a059-4f8a-887a-6997c4081eeb
+  ws-opts:
+    headers:
+      Host: transfer3.51jiasu.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 香港中转3号
+  network: ws
+  port: 14001
+  server: transfer3.51jiasu.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a22bd880-a059-4f8a-887a-6997c4081eeb
+  ws-opts:
+    headers:
+      Host: transfer3.51jiasu.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 香港中转2号
+  network: ws
+  port: 14001
+  server: transfer2.51jiasu.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a22bd880-a059-4f8a-887a-6997c4081eeb
+  ws-opts:
+    headers:
+      Host: transfer2.51jiasu.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本中转2号
+  network: ws
+  port: 14000
+  server: transfer2.51jiasu.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a22bd880-a059-4f8a-887a-6997c4081eeb
+  ws-opts:
+    headers:
+      Host: transfer2.51jiasu.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 香港中转1号
+  network: ws
+  port: 14001
+  server: transfer.51jiasu.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a22bd880-a059-4f8a-887a-6997c4081eeb
+  ws-opts:
+    headers:
+      Host: transfer.51jiasu.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本中转1号
+  network: ws
+  port: 14000
+  server: transfer.51jiasu.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a22bd880-a059-4f8a-887a-6997c4081eeb
+  ws-opts:
+    headers:
+      Host: transfer.51jiasu.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 香港-02
@@ -2663,7 +2878,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 191a0c4b-eeb5-4b46-8255-dd5ad0594187
+  uuid: 6bc5ab69-c294-4093-bb2b-790e920ff9e9
 - alterId: 0
   cipher: auto
   name: 香港-HK-1
@@ -2674,7 +2889,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 62d3c608-83fa-4927-ae3f-f5804f07cc82
+  uuid: 37df7ecb-e655-4d0a-8873-585f27747f98
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
@@ -2689,214 +2904,261 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 62d3c608-83fa-4927-ae3f-f5804f07cc82
+  uuid: 37df7ecb-e655-4d0a-8873-585f27747f98
   ws-opts:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
-- cipher: chacha20-ietf-poly1305
-  name: 2|日本L|X1|DF
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 59999
-  server: df-01.bestdong.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: V1 香港 移动专线
+  port: 31011
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|台湾L|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 59998
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V1 台湾 移动专线
+  port: 31021
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港L|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 59996
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V1 日本 移动专线
+  port: 31031
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|日本05|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24018
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V1 新加坡 移动专线
+  port: 31041
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|日本06|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24019
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V1 韩国 移动专线
+  port: 31051
+  server: azi.cm.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|台湾05|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 33020
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 香港 华南专线
+  port: 31011
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|台湾05|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24020
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 香港 华中专线
+  port: 31111
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|英国05|X1|XD中新
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24210
-  server: xd-xjp9.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 台湾 华南专线
+  port: 31021
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|台湾06|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24092
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 台湾 华中专线
+  port: 31121
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|美国05|X1|XD中港1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 日本 华南专线
+  port: 31031
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港05|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24049
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 日本 华中专线
+  port: 31131
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港05|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 33025
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 新加坡 华南专线
+  port: 31041
+  server: azi.cm2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港06|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24040
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V2 新加坡 华中专线
+  port: 31141
+  server: azi.ct.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港06|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 33026
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 香港 华南专线-NF
+  port: 31011
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港07|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24039
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 香港 华中专线-NF
+  port: 31411
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|香港07|X1|XD中港2
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24039
-  server: xd-zg2.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 香港 华东专线-NF
+  port: 31411
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|日本L|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 59995
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 台湾 华南专线-NF
+  port: 31021
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|香港L|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 59993
-  server: df-01.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 台湾 华中专线-NF
+  port: 31421
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|日本01|X1|XD中日1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 28912
-  server: xd-zhongri1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 台湾 华东专线-NF
+  port: 31421
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|日本01|X1|DF1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 33030
-  server: zz-zj1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 日本 华南专线-NF
+  port: 31331
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|日本01|X1|上海LL
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 24012
-  server: ll-sh1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 日本 华中专线-NF
+  port: 31431
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|日本02|X1|XD中日1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 28916
-  server: xd-zhongri1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 日本 华东专线-NF
+  port: 31431
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|日本03|X1|XD中日1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 28074
-  server: xd-zhongri1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 新加坡 华南专线-NF
+  port: 31341
+  server: azi.cm3.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|美国01|X1|XD中港1
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 25013
-  server: xd-zg1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 新加坡 华中专线-NF
+  port: 31441
+  server: azi.cn1.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|美国01|X1|XD中港HKT
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
+- alterId: 0
+  cipher: auto
+  name: V3 新加坡 华东专线-NF
+  port: 31441
+  server: azi.cn2.xiaomi-api.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|香港01|X1|XD中港2
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 26011
-  server: xd-zg2.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|香港01|X1|XD中港HKT
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 60003
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|香港02|X1|XD中港2
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 26015
-  server: xd-zg2.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|香港02|X1|XD中港HKT
-  password: 9c468f97-e827-4848-9f5c-c66238859b53
-  port: 41015
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
+  uuid: 4d8eb8d0-ca4e-448b-a80a-5496b0411008
 - alterId: 0
   cipher: auto
   name: 香港 1 LV0-HK
@@ -2906,26 +3168,178 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 15c99d54-4b3c-4365-95a9-b0968adedea6
+  uuid: 44f787ce-7c39-4e31-a42f-240968c389b4
+- alterId: 0
+  cipher: auto
+  name: 续费日期是 2024-07-20
+  network: ws
+  port: 33563
+  server: 36.213.31.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awssgB
+- alterId: 0
+  cipher: auto
+  name: 新加坡2-0.5X
+  network: ws
+  port: 43563
+  server: 36.150.27.84
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  ws-opts:
+    path: /awssgB
+- cipher: chacha20-ietf-poly1305
+  name: 香港JUST-1X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22001
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港JUST2-1X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22001
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港HKT1-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 42001
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港HKT2-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 42001
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港HKT3-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22024
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港BGP1-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22003
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港BGP2-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 42003
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港SCLOUD-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22002
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港SCLOUD2-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22002
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港HGC-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 42006
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港WTT-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22005
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾HINET-3X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22007
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾SCLOUD-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22008
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾BUSINESS-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 42055
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 新加坡SCLOUD-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22022
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-SAKURA-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22010
+  server: 36.213.31.248
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本SAKURA-3X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22010
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01DIGITAL-2X
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22023
+  server: 36.150.27.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: MISAKA香港
+  password: cd74e8ca-216e-4362-b465-35fbc01ce9a3
+  port: 22054
+  server: 36.213.31.248
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港00
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 38198
   server: pangmaoccc.sic.hk
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港04
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
+  password: f0f43a02-6bb1-436d-b755-c9a5536bcd15
   port: 37429
   server: mmt-shyd.donghui.tech
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡02
-  password: 17a8f138-b3c9-48b4-9117-b8c77ab9bc41
-  port: 58022
-  server: pangmaoccc.sic.hk
   type: ss
   udp: true
 - alterId: 0
@@ -2938,7 +3352,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e9d74754-bc7b-45d0-8737-9568a9176558
+  uuid: 9e644f97-f7a6-448b-88c7-76234dbd944f
   ws-opts:
     headers:
       Host: 877.bitaiyun.tech
@@ -2953,26 +3367,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e9d74754-bc7b-45d0-8737-9568a9176558
+  uuid: 9e644f97-f7a6-448b-88c7-76234dbd944f
   ws-opts:
     headers:
       Host: 02.bitaiyun.tech
     path: /vccmn
-- alterId: 0
-  cipher: auto
-  name: 新加坡2
-  network: ws
-  port: 80
-  server: sg0214551.ludou.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e9d74754-bc7b-45d0-8737-9568a9176558
-  ws-opts:
-    headers:
-      Host: sg002afa.ludou.us.kg
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 新加坡SG
@@ -2983,7 +3382,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e9d74754-bc7b-45d0-8737-9568a9176558
+  uuid: 9e644f97-f7a6-448b-88c7-76234dbd944f
   ws-opts:
     headers:
       Host: sg.ludou.us.kg
