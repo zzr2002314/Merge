@@ -26,7 +26,7 @@ def deduplicate_nodes(nodes):
     return unique_nodes
 
 def main():
-    yaml_url = 'https://raw.githubusercontent.com/zzr2002314/aggregator/master/aggregate/data/proxies.yaml'
+    yaml_url = 'https://imperialb.in/r/guuxbjhm'
     regions = {
         'Hong Kong': ['港'],
         'Taiwan': ['台'],
