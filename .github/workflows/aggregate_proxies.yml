@@ -2,7 +2,7 @@ name: Filter and Deduplicate Proxies and Commit
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # 每4小时执行一次
+    - cron: '0 */8 * * *'  # 每8小时执行一次
   workflow_dispatch:
 
 jobs:
