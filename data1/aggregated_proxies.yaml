@@ -8,11 +8,165 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6e672e93-5008-4995-b792-5b541dd7db2c
+  uuid: ddfabbf2-43b5-4acc-996e-266177d6a088
   ws-opts:
     headers:
       Host: m2-hk1.go-relay.top
     path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本NEW 01
+  network: ws
+  port: 8880
+  server: fr-new01.daluquan.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 72e4ffe5-37b9-4381-aba3-7dc07db2491d
+  ws-opts:
+    headers:
+      Host: fr-new01.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 01
+  network: ws
+  port: 80
+  server: 162.159.136.16
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
+  ws-opts:
+    headers:
+      Host: jp3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 02
+  network: ws
+  port: 80
+  server: 104.19.175.68
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 03
+  network: ws
+  port: 80
+  server: 104.19.176.68
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 04
+  network: ws
+  port: 80
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NEW01优选 01
+  network: ws
+  port: 8080
+  server: go.daluquan.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d4c869c3-15c4-41d8-932a-faa0a6d09184
+  ws-opts:
+    headers:
+      Host: de-new01.daluquan.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 01
+  network: ws
+  port: 80
+  server: m2-sg3.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 361bdf34-4a34-45ae-a4d2-2d45e31c9483
+  ws-opts:
+    headers:
+      Host: m2-sg3.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 02
+  network: ws
+  port: 80
+  server: m2-sg2.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ed8353ac-ac8e-4d09-b5cc-bd2aa6a0b579
+  ws-opts:
+    headers:
+      Host: m2-sg2.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 03
+  network: ws
+  port: 80
+  server: m2-sg1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87e14c48-6e0f-4ab9-a657-fcae30d17165
+  ws-opts:
+    headers:
+      Host: m2-sg1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 06
+  network: ws
+  port: 8880
+  server: 999.bitaiyun.tech
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6807ab73-91d4-4026-a0fb-fb8abc465a39
+  ws-opts:
+    headers:
+      Host: 877.bitaiyun.tech
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 07
+  network: ws
+  port: 80
+  server: sg0214551.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2293c57-8916-45e2-aa0c-6b915e6ef81e
+  ws-opts:
+    headers:
+      Host: sg002afa.ludou.us.kg
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡SG 01
@@ -22,81 +176,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: af584a62-19a8-4a32-8e78-69cd723be087
+  uuid: c7e54904-e9ad-4154-a9a7-be1b63bd3bc6
   ws-opts:
     headers:
       Host: sg.ludou.us.kg
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 01
-  network: ws
-  port: 80
-  server: sg0214551.ludou.us.kg
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9962b77e-3166-4530-8814-2c280e7be684
-  ws-opts:
-    headers:
-      Host: sg002afa.ludou.us.kg
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 02
-  network: ws
-  port: 80
-  server: m2-sg1.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: aa0dd364-d588-458a-ad42-272c9c0bad7d
-  ws-opts:
-    headers:
-      Host: m2-sg1.m2network.icu
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 04
-  network: ws
-  port: 8880
-  server: 999.bitaiyun.tech
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92298a5e-6687-4c92-b0e7-2b2473a00a05
-  ws-opts:
-    headers:
-      Host: 877.bitaiyun.tech
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 06
-  network: ws
-  port: 80
-  server: m2-sg3.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7917228a-e449-4e91-b02c-9cf63318984a
-  ws-opts:
-    headers:
-      Host: m2-sg3.m2network.icu
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 13
-  network: ws
-  port: 80
-  server: m2-sg2.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 085d1e11-fbf3-411e-8129-59e72cb3567d
-  ws-opts:
-    headers:
-      Host: m2-sg2.m2network.icu
-    path: /ws?ed=2560
 - alterId: 0
   cipher: auto
   name: 🇰🇷 韩国NEW 01
@@ -111,34 +195,6 @@ proxies:
     headers:
       Host: uk-new01.daluquan.top
     path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本NEW 01
-  network: ws
-  port: 8880
-  server: fr-new01.daluquan.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 32c06576-6233-4c99-9c38-4c80a35deda6
-  ws-opts:
-    headers:
-      Host: fr-new01.daluquan.top
-    path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NEW01优选 01
-  network: ws
-  port: 8080
-  server: go.daluquan.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cb15242d-adb4-427c-9478-8ca7c50a3b11
-  ws-opts:
-    headers:
-      Host: de-new01.daluquan.top
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡NEW 01
@@ -167,59 +223,3 @@ proxies:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 01
-  network: ws
-  port: 80
-  server: 104.19.176.68
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 02
-  network: ws
-  port: 80
-  server: 104.19.175.68
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 03
-  network: ws
-  port: 80
-  server: 104.18.15.148
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
-  ws-opts:
-    headers:
-      Host: jp3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 04
-  network: ws
-  port: 80
-  server: 162.159.136.16
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 38a7f467-f1c8-4392-a6e9-0ed23e93775c
-  ws-opts:
-    headers:
-      Host: jp3.visaapp.top
-    path: /
