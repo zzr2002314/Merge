@@ -4,25 +4,46 @@ proxies:
   name: 🇸🇬 新加坡 01
   network: ws
   port: 80
+  server: m2-sg1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: da0b3be3-3fb1-4170-a94c-5ceba4f0be03
+  ws-opts:
+    headers:
+      Host: m2-sg1.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 02
+  network: ws
+  port: 80
+  server: m2-sg2.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e397d2cc-a689-4cba-8d60-6e99bad44e1c
+  ws-opts:
+    headers:
+      Host: m2-sg2.m2network.icu
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 03
+  network: ws
+  port: 80
   server: m2-sg3.m2network.icu
   tls: false
   type: vmess
   udp: true
-  uuid: 416d3b60-4d3a-4cfa-9b0e-c5414b1091ca
+  uuid: 085d1e11-fbf3-411e-8129-59e72cb3567d
   ws-opts:
     headers:
       Host: m2-sg3.m2network.icu
     path: /ws?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 02
-  password: 0ffa1ac2-1888-4582-951f-f1a119512593
-  port: 15627
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡 03
+  name: 🇸🇬 新加坡 06
   network: ws
   port: 8880
   server: 999.bitaiyun.tech
@@ -35,44 +56,9 @@ proxies:
     headers:
       Host: 877.bitaiyun.tech
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 05
-  password: 9e42d142-edc9-42f6-bd13-f6f880646def
-  port: 15636
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡 06
-  network: ws
-  port: 80
-  server: m2-sg2.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db399b33-663d-4a5d-ba63-d8fab99532fd
-  ws-opts:
-    headers:
-      Host: m2-sg2.m2network.icu
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 09
-  network: ws
-  port: 80
-  server: m2-sg1.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05df2bf7-6445-411a-a3d9-759bd391505e
-  ws-opts:
-    headers:
-      Host: m2-sg1.m2network.icu
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 11
+  name: 🇸🇬 新加坡 07
   network: ws
   port: 80
   server: q26.ludou.us.kg
@@ -84,107 +70,8 @@ proxies:
     headers:
       Host: sg.ludou.us.kg
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 19
-  password: b18e2fa7-f175-41f6-b23a-798683cd1366
-  port: 24893
-  server: sga8502.fraternizey.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 31
-  password: 98a8903b-85b2-46f0-99c5-07892089a717
-  port: 15637
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 36
-  network: ws
-  port: 80
-  server: sg0214551.ludou.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 249231a8-f6a0-4b4c-9ebc-ffd7b2d34a39
-  ws-opts:
-    headers:
-      Host: sg002afa.ludou.us.kg
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 39
-  network: ws
-  port: 8880
-  server: q3.ludou.us.kg
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 68f39462-782a-4bf6-b838-999be9a7ffaa
-  ws-opts:
-    headers:
-      Host: 877.bitaiyun.tech
-    path: /?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬 新加坡 42
-  network: tcp
-  port: 20230
-  reality-opts:
-    public-key: gKQ1iax36vjbOYLKLveiSn_OnlBVAf3ecHLpQnrC4jw
-    short-id: a7464bff
-  server: sg004.421421.xyz
-  servername: api.push.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0bfa2050-b165-4156-859c-70f36d300dce
 - client-fingerprint: random
-  name: 🇸🇬 新加坡 45
-  network: ws
-  port: 2053
-  server: 47.236.145.85
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- client-fingerprint: random
-  name: 🇸🇬 新加坡 62
-  network: ws
-  port: 2053
-  server: 47.236.167.231
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- client-fingerprint: random
-  name: 🇸🇬 新加坡 66
-  network: ws
-  port: 8443
-  server: 47.236.237.90
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- client-fingerprint: random
-  name: 🇸🇬 新加坡 67
+  name: 🇸🇬 新加坡 08
   network: ws
   port: 2083
   server: 47.236.117.48
@@ -198,7 +85,21 @@ proxies:
       Host: toujiediansigema.666888.lol
     path: /TG@mianfeicf
 - client-fingerprint: random
-  name: 🇸🇬 新加坡 69
+  name: 🇸🇬 新加坡 17
+  network: ws
+  port: 8443
+  server: 47.236.237.90
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 20
   network: ws
   port: 2083
   server: 47.236.202.91
@@ -211,22 +112,74 @@ proxies:
     headers:
       Host: toujiediansigema.666888.lol
     path: /TG@mianfeicf
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 25
+  network: ws
+  port: 2053
+  server: 47.236.145.85
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡 02-中转 01
+  name: 🇸🇬 新加坡 26
   network: ws
-  port: 21021
-  server: sg.lianjianode.cc
+  port: 8880
+  server: q3.ludou.us.kg
   tls: false
   type: vmess
   udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  uuid: 68f39462-782a-4bf6-b838-999be9a7ffaa
   ws-opts:
     headers:
-      Host: sg1.luodi.xyz
-    path: /singapore
+      Host: 877.bitaiyun.tech
+    path: /?ed=2048
+- client-fingerprint: random
+  name: 🇸🇬 新加坡 32
+  network: ws
+  port: 2053
+  server: 47.236.167.231
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 33
+  network: ws
+  port: 80
+  server: sg0214551.ludou.us.kg
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 249231a8-f6a0-4b4c-9ebc-ffd7b2d34a39
+  ws-opts:
+    headers:
+      Host: sg002afa.ludou.us.kg
+    path: /?ed=2048
 - auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
   name: 🇰🇷 韩国 01
+  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  port: 35000
+  server: 158.179.162.103
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  name: 🇰🇷 韩国 02
   password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
   port: 35000
   server: 193.123.240.42
@@ -235,98 +188,44 @@ proxies:
   type: hysteria2
   udp: true
 - client-fingerprint: random
-  name: 🇰🇷 韩国 02
+  name: 🇰🇷 韩国 03
   network: ws
-  port: 2087
-  server: 47.236.202.91
-  servername: vo.ylks.xyz
+  port: 11310
+  server: 211.55.202.96
+  servername: toujiediansigema.666888.lol
   tls: true
   type: vless
   udp: true
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
   ws-opts:
     headers:
-      Host: vo.ylks.xyz
-    path: /
-- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 03
-  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  port: 35000
-  server: 158.179.162.103
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- name: 🇰🇷 韩国 04
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
+- client-fingerprint: random
+  name: 🇰🇷 韩国 04
   network: ws
   port: 443
   server: 59.3.3.161
-  servername: kkfo.ylks.xyz
+  servername: toujiediansigema.666888.lol
   tls: true
   type: vless
   udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
   ws-opts:
     headers:
-      Host: kkfo.ylks.xyz
-    path: /blue
-- name: 🇰🇷 韩国 05
-  network: ws
-  port: 31285
-  server: 106.240.98.130
-  servername: kkfo.ylks.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kkfo.ylks.xyz
-    path: /blue
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韩国 07
-  password: b18e2fa7-f175-41f6-b23a-798683cd1366
-  port: 19644
-  server: kra9012.fraternizey.com
-  type: ss
-  udp: true
-- name: 🇰🇷 韩国 08
-  network: ws
-  port: 18182
-  server: 59.20.89.207
-  servername: xino.ylks.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: xino.ylks.xyz
-    path: /blue
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
 - auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 09
+  name: 🇰🇷 韩国 05
   password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
   port: 35000
-  server: 193.122.113.204
+  server: 152.70.234.12
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: api.push.apple.com
   type: hysteria2
   udp: true
-- name: 🇰🇷 韩国 10
-  network: ws
-  port: 20002
-  server: 121.164.146.175
-  servername: hko.ylks.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hko.ylks.xyz
-    path: /blue
 - client-fingerprint: random
-  name: 🇰🇷 韩国 11
+  name: 🇰🇷 韩国 06
   network: ws
   port: 34237
   server: 129.154.221.203
@@ -340,7 +239,16 @@ proxies:
       Host: toujiediansigema.666888.lol
     path: /TG@mianfeicf
 - auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 12
+  name: 🇰🇷 韩国 07
+  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  port: 35000
+  server: 193.122.113.204
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  name: 🇰🇷 韩国 08
   password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
   port: 35000
   server: 146.56.174.194
@@ -348,8 +256,26 @@ proxies:
   sni: api.push.apple.com
   type: hysteria2
   udp: true
+- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  name: 🇰🇷 韩国 09
+  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  port: 35000
+  server: 146.56.100.103
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  name: 🇰🇷 韩国 10
+  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  port: 35000
+  server: 152.69.225.196
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
 - client-fingerprint: random
-  name: 🇰🇷 韩国 13
+  name: 🇰🇷 韩国 11
   network: ws
   port: 57569
   server: 185.214.103.86
@@ -362,52 +288,8 @@ proxies:
     headers:
       Host: toujiediansigema.666888.lol
     path: /TG@mianfeicf
-- name: 🇰🇷 韩国 14
-  network: ws
-  port: 50036
-  server: 112.219.148.204
-  servername: kkfo.ylks.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kkfo.ylks.xyz
-    path: /blue
-- name: 🇰🇷 韩国 16
-  network: ws
-  port: 50026
-  server: 115.88.75.154
-  servername: kkfo.ylks.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kkfo.ylks.xyz
-    path: /blue
 - auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 17
-  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  port: 35000
-  server: 152.70.234.12
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-  udp: true
-- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 18
-  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  port: 35000
-  server: 146.56.100.103
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 19
+  name: 🇰🇷 韩国 12
   password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
   port: 35000
   server: 193.123.242.61
@@ -415,164 +297,22 @@ proxies:
   sni: api.push.apple.com
   type: hysteria2
   udp: true
-- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇰🇷 韩国 20
-  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  port: 35000
-  server: 152.69.225.196
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 🇰🇷 韩国 21
-  network: ws
-  port: 11310
-  server: 211.55.202.96
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 01
-  password: 456f5793-c33f-47ce-93f1-7d6d5736e3f9
-  port: 15632
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- client-fingerprint: random
-  name: 🇹🇼 台湾 07
-  network: ws
-  port: 46832
-  server: 103.137.63.37
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 10
-  password: b18e2fa7-f175-41f6-b23a-798683cd1366
-  port: 34969
-  server: twa3302.fraternizey.com
-  type: ss
-  udp: true
-- client-fingerprint: random
-  name: 🇹🇼 台湾 11
-  network: ws
-  port: 16764
-  server: 211.75.243.91
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- cipher: aes-128-gcm
-  name: 🇭🇰 香港HK 01
-  password: 1debebfb-ee1b-47d9-9723-e4cbb0eae2e0
-  port: 20034
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰 香港HK 02
-  password: 93d25d73-4018-4168-a81b-41ca2d1675d8
-  port: 20051
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰 香港HK 04
-  password: 93d25d73-4018-4168-a81b-41ca2d1675d8
-  port: 56701
-  server: gy.666666222.shop
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡SG 01
-  network: ws
-  port: 80
-  server: sg1.ludou.us.kg
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0b068d12-d27c-4742-83b7-7780126f5f82
-  ws-opts:
-    headers:
-      Host: sg.ludou.us.kg
-    path: /?ed=2048
-- cipher: aes-128-gcm
-  name: 🇸🇬 新加坡SG 05
-  password: 1debebfb-ee1b-47d9-9723-e4cbb0eae2e0
-  port: 56705
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 🇭🇰 香港 01
-  password: 2fcbe64f-35bb-4e24-999f-a33866143aa2
-  port: 20052
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 02
   network: ws
   port: 80
   server: m2-hk1.go-relay.top
   tls: false
   type: vmess
   udp: true
-  uuid: 361bdf34-4a34-45ae-a4d2-2d45e31c9483
+  uuid: b33e2af8-5e00-45c7-a5f3-338659b74b58
   ws-opts:
     headers:
       Host: m2-hk1.go-relay.top
     path: /ws?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 04
-  password: 2fcbe64f-35bb-4e24-999f-a33866143aa2
-  port: 20035
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 12
-  password: 9e42d142-edc9-42f6-bd13-f6f880646def
-  port: 15931
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
 - client-fingerprint: random
-  name: 🇭🇰 香港 25
-  network: ws
-  port: 8081
-  server: 103.30.76.159
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- client-fingerprint: random
-  name: 🇭🇰 香港 28
+  name: 🇭🇰 香港 05
   network: ws
   port: 443
   server: 43.154.96.33
@@ -585,23 +325,9 @@ proxies:
     headers:
       Host: toujiediansigema.666888.lol
     path: /TG@mianfeicf
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 31
-  password: 98a8903b-85b2-46f0-99c5-07892089a717
-  port: 15635
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 33
-  password: b18e2fa7-f175-41f6-b23a-798683cd1366
-  port: 18197
-  server: hka2302.fraternizey.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇭🇰 香港 41
+  name: 🇭🇰 香港 06
   network: tcp
   port: 10000
   reality-opts:
@@ -613,60 +339,11 @@ proxies:
   type: vless
   udp: true
   uuid: 8bfddec0-001a-44c9-a13f-d8d76c1353f4
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国NEW 01
-  network: ws
-  port: 8880
-  server: uk-new01.daluquan.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4eb59775-d2d4-40ba-b19d-8cfa768f54a5
-  ws-opts:
-    headers:
-      Host: uk-new01.daluquan.top
-    path: /itdog?ed=2560
-- client-fingerprint: chrome
-  name: 🇸🇬 新加坡1-双栈-C 01
-  network: ws
-  port: 443
-  server: xjp.1-blog.buzz
-  servername: xjp.1-blog.buzz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7442b3cd-b288-47fa-a8d7-840723123a8f
-  ws-opts:
-    headers:
-      Host: xjp.1-blog.buzz
-    path: /aiguo?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 LY 01
-  password: 0feb7e99-dd12-475c-8064-466fbc843b2b
-  port: 43014
-  server: ttsh.xissyun.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 01-中转 01
-  network: ws
-  port: 21010
-  server: jp.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-  ws-opts:
-    headers:
-      Host: jp1.luodi.xyz
-    path: /japan
 - client-fingerprint: random
-  name: 🇯🇵 日本 01
+  name: 🇭🇰 香港 10
   network: ws
-  port: 443
-  server: 43.153.181.217
+  port: 8081
+  server: 103.30.76.159
   servername: toujiediansigema.666888.lol
   tls: true
   type: vless
@@ -676,180 +353,6 @@ proxies:
     headers:
       Host: toujiediansigema.666888.lol
     path: /TG@mianfeicf
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 02
-  password: b18e2fa7-f175-41f6-b23a-798683cd1366
-  port: 20239
-  server: jpb7502.fraternizey.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 03
-  password: b18e2fa7-f175-41f6-b23a-798683cd1366
-  port: 21035
-  server: jpa7502.fraternizey.com
-  type: ss
-  udp: true
-- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  name: 🇯🇵 日本 04
-  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
-  port: 443
-  server: 205.178.183.99
-  skip-cert-verify: true
-  sni: tv.apple.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 🇯🇵 日本 05
-  network: ws
-  port: 8526
-  server: 172.84.92.174
-  servername: toujiediansigema.666888.lol
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
-  ws-opts:
-    headers:
-      Host: toujiediansigema.666888.lol
-    path: /TG@mianfeicf
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾 02-中转 01
-  port: 21004
-  server: tw.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 DRACO 01
-  password: 2b5c86b6-3a35-42a0-b8e7-ffaee131892e
-  port: 12335
-  server: ttsh.xissyun.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 04-中转 01
-  network: ws
-  port: 21013
-  server: jp.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-  ws-opts:
-    headers:
-      Host: jp1.luodi.xyz
-    path: /japan
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡NEW01优选 01
-  network: ws
-  port: 8080
-  server: go.daluquan.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4ec5e19f-a8e9-437d-b849-f485916d0edc
-  ws-opts:
-    headers:
-      Host: de-new01.daluquan.top
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 RIG 01
-  password: 0feb7e99-dd12-475c-8064-466fbc843b2b
-  port: 17224
-  server: cloudgd.coemn.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加披 CARINA 01
-  password: 0feb7e99-dd12-475c-8064-466fbc843b2b
-  port: 29499
-  server: cloudgd.coemn.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 CANOP 01
-  password: 0feb7e99-dd12-475c-8064-466fbc843b2b
-  port: 54354
-  server: cloudgd.coemn.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 01-中转 01
-  network: ws
-  port: 21020
-  server: sg.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-  ws-opts:
-    headers:
-      Host: sg1.luodi.xyz
-    path: /singapore
-- cipher: aes-256-gcm
-  name: 🇳🇿 新西兰家宽 01
-  password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0
-  port: 63459
-  server: gzdxmmbb.la-chinata.hk
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 HYD 01
-  password: 0feb7e99-dd12-475c-8064-466fbc843b2b
-  port: 32280
-  server: cloudgd.coemn.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 04-中转 01
-  network: ws
-  port: 21033
-  server: hk.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-  ws-opts:
-    headers:
-      Host: hk1.luodi.xyz
-    path: /hongkong
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾 01-中转 01
-  port: 21003
-  server: tw.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 02-中转 01
-  network: ws
-  port: 21011
-  server: jp.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-  ws-opts:
-    headers:
-      Host: jp1.luodi.xyz
-    path: /japan
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 SPI 01
-  password: 0feb7e99-dd12-475c-8064-466fbc843b2b
-  port: 43856
-  server: ttsh.xissyun.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇭🇰 香港 03-中转 01
@@ -864,6 +367,208 @@ proxies:
     headers:
       Host: hk1.luodi.xyz
     path: /hongkong
+- client-fingerprint: random
+  name: 🇹🇼 台湾 01
+  network: ws
+  port: 46832
+  server: 103.137.63.37
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
+- client-fingerprint: random
+  name: 🇹🇼 台湾 02
+  network: ws
+  port: 16764
+  server: 211.75.243.91
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 韩国NEW 01
+  network: ws
+  port: 8880
+  server: uk-new01.daluquan.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4eb59775-d2d4-40ba-b19d-8cfa768f54a5
+  ws-opts:
+    headers:
+      Host: uk-new01.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 02-中转 01
+  network: ws
+  port: 21011
+  server: jp.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: jp1.luodi.xyz
+    path: /japan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 01-中转 01
+  network: ws
+  port: 21010
+  server: jp.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: jp1.luodi.xyz
+    path: /japan
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 01-中转 01
+  network: ws
+  port: 21020
+  server: sg.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: sg1.luodi.xyz
+    path: /singapore
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡NEW01优选 01
+  network: ws
+  port: 8080
+  server: go.daluquan.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 90313596-2a7e-4ff2-b4c1-21f304220a1f
+  ws-opts:
+    headers:
+      Host: de-new01.daluquan.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 03-中转 01
+  network: ws
+  port: 21012
+  server: jp.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: jp1.luodi.xyz
+    path: /japan
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡SG 01
+  network: ws
+  port: 80
+  server: sg1.ludou.us.kg
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 25af368f-ee7f-4123-a9ef-9af49563ba49
+  ws-opts:
+    headers:
+      Host: sg.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 04-中转 01
+  network: ws
+  port: 21033
+  server: hk.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: hk1.luodi.xyz
+    path: /hongkong
+- cipher: aes-256-gcm
+  name: 🇳🇿 新西兰家宽 01
+  password: 1e3a0957-792e-4f0c-aaaa-ee83eecbf2d0
+  port: 63459
+  server: gzdxmmbb.la-chinata.hk
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾 02-中转 01
+  port: 21004
+  server: tw.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 新加坡 02-中转 01
+  network: ws
+  port: 21021
+  server: sg.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: sg1.luodi.xyz
+    path: /singapore
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 台湾 01-中转 01
+  port: 21003
+  server: tw.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+- auth: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  name: 🇯🇵 日本 01
+  password: 16658a1b-842c-4d8b-9bf2-82c90d176e5a
+  port: 443
+  server: 205.178.183.99
+  skip-cert-verify: true
+  sni: tv.apple.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: random
+  name: 🇯🇵 日本 02
+  network: ws
+  port: 8526
+  server: 172.84.92.174
+  servername: toujiediansigema.666888.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f42d8f7-8beb-47e1-9465-8f390c6d658d
+  ws-opts:
+    headers:
+      Host: toujiediansigema.666888.lol
+    path: /TG@mianfeicf
 - alterId: 0
   cipher: auto
   name: 🇭🇰 香港 02-中转 01
@@ -880,6 +585,20 @@ proxies:
     path: /hongkong
 - alterId: 0
   cipher: auto
+  name: 🇯🇵 日本 04-中转 01
+  network: ws
+  port: 21013
+  server: jp.lianjianode.cc
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
+  ws-opts:
+    headers:
+      Host: jp1.luodi.xyz
+    path: /japan
+- alterId: 0
+  cipher: auto
   name: 🇭🇰 香港 01-中转 01
   network: ws
   port: 21030
@@ -892,17 +611,3 @@ proxies:
     headers:
       Host: hk1.luodi.xyz
     path: /hongkong
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本 03-中转 01
-  network: ws
-  port: 21012
-  server: jp.lianjianode.cc
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ab2b3776-83cc-434b-b49a-bbd47d3c24a5
-  ws-opts:
-    headers:
-      Host: jp1.luodi.xyz
-    path: /japan
