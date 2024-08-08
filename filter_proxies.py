@@ -26,7 +26,7 @@ def deduplicate_nodes(nodes):
     return unique_nodes
 
 def main():
-    yaml_url = 'https://imperialb.in/r/guuxbjhm'
+    yaml_url = 'https://raw.githubusercontent.com/ailongfei/aggregator/main/data/clash.yaml'
     regions = {
         'Hong Kong': ['港'],
         'Taiwan': ['台'],
