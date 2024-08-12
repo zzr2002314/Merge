@@ -26,7 +26,11 @@ def deduplicate_nodes(nodes):
     return unique_nodes
 
 def main():
-    yaml_url = 'https://raw.githubusercontent.com/ailongfei/aggregator/main/data/clash.yaml'
+    yaml_urls = [
+        'https://raw.githubusercontent.com/zzr2002314/aggregator/main/data/clash.yaml',
+        'https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml',
+        'http://172.245.30.41/clash.yaml'
+    ]
     regions = {
         'Hong Kong': ['港'],
         'Taiwan': ['台'],
@@ -35,8 +39,12 @@ def main():
         'Singapore': ['新']
     }
 
-    filtered_nodes = filter_nodes_by_region(yaml_url, regions)
-    unique_nodes = deduplicate_nodes(filtered_nodes)
+    all_filtered_nodes = []
+    for yaml_url in yaml_urls:
+        filtered_nodes = filter_nodes_by_region(yaml_url, regions)
+        all_filtered_nodes.extend(filtered_nodes)
+
+    unique_nodes = deduplicate_nodes(all_filtered_nodes)
     
     output_dir = 'data1'
     os.makedirs(output_dir, exist_ok=True)
