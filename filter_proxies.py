@@ -13,13 +13,12 @@ def filter_nodes_by_keyword(yaml_url, keyword):
     
     return filtered_nodes
 
-def deduplicate_nodes(nodes):
-    seen = set()
+def deduplicate_nodes_by_name(nodes):
+    seen_names = set()
     unique_nodes = []
     for node in nodes:
-        identifier = (node['server'], node['port'], node['type'])
-        if identifier not in seen:
-            seen.add(identifier)
+        if node['name'] not in seen_names:
+            seen_names.add(node['name'])
             unique_nodes.append(node)
     return unique_nodes
 
@@ -36,8 +35,8 @@ def main():
         filtered_nodes = filter_nodes_by_keyword(yaml_url, keyword)
         all_filtered_nodes.extend(filtered_nodes)
 
-    unique_nodes = deduplicate_nodes(all_filtered_nodes)
-    
+    unique_nodes = deduplicate_nodes_by_name(all_filtered_nodes)
+
     output_dir = 'data1'
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, 'aggregated_proxies.yaml')
