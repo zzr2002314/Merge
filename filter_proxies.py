@@ -2,16 +2,14 @@ import yaml
 import requests
 import os
 
-def filter_nodes_by_region(yaml_url, regions):
+def filter_nodes_by_keyword(yaml_url, keyword):
     response = requests.get(yaml_url)
     data = yaml.safe_load(response.content)
     
     filtered_nodes = []
     for node in data['proxies']:
-        for region in regions:
-            if any(keyword in node['name'] for keyword in regions[region]):
-                filtered_nodes.append(node)
-                break
+        if keyword in node['name']:
+            filtered_nodes.append(node)
     
     return filtered_nodes
 
@@ -29,19 +27,13 @@ def main():
     yaml_urls = [
         'https://raw.githubusercontent.com/zzr2002314/aggregator/main/data/clash.yaml',
         'https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml',
-        'http://172.245.30.41/clash.yaml'
+        'https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml'
     ]
-    regions = {
-        'Hong Kong': ['港'],
-        'Taiwan': ['台'],
-        'Korea': ['韩'],
-        'Japan': ['日'],
-        'Singapore': ['新']
-    }
+    keyword = '美'
 
     all_filtered_nodes = []
     for yaml_url in yaml_urls:
-        filtered_nodes = filter_nodes_by_region(yaml_url, regions)
+        filtered_nodes = filter_nodes_by_keyword(yaml_url, keyword)
         all_filtered_nodes.extend(filtered_nodes)
 
     unique_nodes = deduplicate_nodes(all_filtered_nodes)
