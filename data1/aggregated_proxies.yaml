@@ -1,385 +1,179 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韩国 C KR-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 35609
-  server: kr3.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡02-1A
-  network: ws
-  port: 14258
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 A SG-1A
-  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
-  port: 35105
-  server: sg1.iepl.cooc.icu
-  type: ss
-  udp: true
-- name: 🇰🇷 韩国-3L
-  password: d3491866-4b94-438f-9aca-721891182aae
-  port: 23704
-  server: krf7.dmasodjioejqng568a9defg.sanxi.online
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国-三网优化2-3C
-  password: cee65b96-ff29-4b20-a053-071004e3faa5
-  port: 44732
-  server: kr-qingyun.dwyun.me
-  skip-cert-verify: false
-  sni: kr-qingyun.dwyun.me
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港03-1M
-  password: fd5caa96-d1ab-4595-9b10-aa985b6299da
-  port: 20052
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 2-1B
-  network: ws
-  port: 80
-  server: m2-sg2.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fd9941c-295b-4377-b264-a57ff6fbdd09
-  ws-opts:
-    headers:
-      Host: m2-sg2.m2network.icu
-    path: /ws?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1|日本03|X1|XD中日1-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 28074
-  server: xd-zhongri1.bestdong.xyz
-  type: ss
-  udp: true
-- name: 🇰🇷 韩国-1L
-  password: a1f6b7ce-a134-45e8-8c99-ad5bbd98269c
-  port: 26903
-  server: kr-04.sdagdjnbnuygvsa26wf.sanxi.online
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|香港07|X1|XD中港2-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 24039
-  server: xd-zg2.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡01-1A
-  network: ws
-  port: 12225
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡03-1H
-  password: 30c575c2-fe18-4235-b4cd-a254409c6586
-  port: 15627
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 V2 台湾 华南专线
-  port: 31021
-  server: azi.cm2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 1-1H
-  password: 22f19285-add9-4954-89f7-811f62fab91f
-  port: 20032
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 4f4dd26d-2896-4eb6-bafe-5297454c7b00
-  name: 🇰🇷 韩国 01-4V
-  password: 4f4dd26d-2896-4eb6-bafe-5297454c7b00
-  port: 44301
-  server: kr-01.worldfirst.eu.org
+- auth: 408d4000-1c8b-4a89-965b-24343dce461e
+  name: 🇺🇸 美国 01-4D
+  password: 408d4000-1c8b-4a89-965b-24343dce461e
+  port: 44300
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
-  sni: kr-01.worldfirst.eu.org
+  sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 V3 新加坡 华中专线-NF
-  port: 31441
-  server: azi.cn1.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 1-1B
-  network: ws
-  port: 80
-  server: m2-hk1.go-relay.top
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1fd9941c-295b-4377-b264-a57ff6fbdd09
-  ws-opts:
-    headers:
-      Host: m2-hk1.go-relay.top
-    path: /ws?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韩国 B KR-1A
-  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
-  port: 35102
-  server: kr2.iepl.cooc.icu
-  type: ss
+- auth: 92332017-1751-4066-8a67-eabac20935f9
+  name: 🇺🇸 美国 04-3R
+  password: 92332017-1751-4066-8a67-eabac20935f9
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港01-1G
-  password: 6e868149-03bb-45f3-9f51-5346d2b8be05
-  port: 19630
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港11-1A
-  network: ws
-  port: 35525
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本04-1I
-  password: fd5caa96-d1ab-4595-9b10-aa985b6299da
-  port: 20008
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本03-1L
+  name: 🇺🇸 美国03-1L
   password: b7fc7de3-decd-47cf-bef8-36a9b43593a2
-  port: 20006
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港家宽-转发0.6x-1A
-  network: ws
-  port: 42361
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: hkg.cylink.tech
-    path: /www/wwwroot/hkg.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港01-1I
-  password: 20c42480-62f5-4750-9cdb-17725be7eb4d
-  port: 34338
+  port: 42414
   server: gd.xueyejiasu.com
   type: ss
   udp: true
-- name: 🇰🇷 韩国-4K
-  password: f13fd704-7db6-42a7-9037-c81cf1727a32
-  port: 59204
-  server: kr3.jhsadyua7astto9idu88746.sanxi.online
-  skip-cert-verify: false
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 1-1G
+  network: ws
+  port: 80
+  server: m2-us1.go-relay.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d1916974-4879-47d2-a3d9-c630a32c9abb
+  ws-opts:
+    headers:
+      Host: m2-us1.go-relay.top
+    path: /ws?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1S
+  password: b7fc7de3-decd-47cf-bef8-36a9b43593a2
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: f4539c3b-7be7-4634-982f-d4b645d4afe2
+  name: 🇺🇸 美国 03-4F
+  password: f4539c3b-7be7-4634-982f-d4b645d4afe2
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 V1 韩国 移动专线
-  port: 31051
-  server: azi.cm.xiaomi-api.xyz
+  name: 🇺🇸 V2 美国 华中专线
+  port: 31161
+  server: azi.ct.xiaomi-api.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|香港06|X1|上海LL-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 24040
-  server: ll-sh1.bestdong.xyz
-  type: ss
+- auth: 186096a4-310c-41e7-b797-db9857bde540
+  name: 🇺🇸 美国 02-2H
+  password: 186096a4-310c-41e7-b797-db9857bde540
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
   udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰 香港04-1B
-  password: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
-  port: 48005
-  server: shcm.skycloud.lol
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1C
+  password: 6e868149-03bb-45f3-9f51-5346d2b8be05
+  port: 15731
+  server: gdcub.yunnode.win
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 日本03-1C
+  name: 🇺🇸 美国 6-1U
   network: ws
-  port: 40483
-  server: jscm.skycloud.lol
+  port: 80
+  server: m2-us3.m2network.icu
   tls: false
   type: vmess
   udp: true
-  uuid: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
+  uuid: 253b89c2-7309-4641-9e29-82aecce3979b
   ws-opts:
     headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
+      Host: m2-us3.m2network.icu
+    path: /ws?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港03-1L
-  password: 6a4f7d76-06f8-48be-83ae-240aa30608c8
-  port: 15635
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|香港01|X1|XD中港2-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 26011
-  server: xd-zg2.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港02-1Q
-  password: 74a00e18-2490-4f3d-a942-3f96c4e4fd80
-  port: 15931
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本02-1E
-  password: ee8572bd-b9bd-4b3e-ac56-48940e64f00c
-  port: 20004
+  name: 🇺🇸 美国 纽约01-1G
+  password: fd5caa96-d1ab-4595-9b10-aa985b6299da
+  port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 1ab84705-ff99-4246-bfcb-69c48c777c74
-  name: 🇰🇷 韩国-2-1A
-  password: 1ab84705-ff99-4246-bfcb-69c48c777c74
-  port: 30001
-  server: oracle-arm-chuncheon2.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 5-1D
+  network: ws
+  port: 80
+  server: m2-us2.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 77f9e923-c96a-4bf7-b21b-ef6e4ee267d1
+  ws-opts:
+    headers:
+      Host: m2-us2.m2network.icu
+    path: /ws?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1B
+  password: 9d383b18-15d1-4fb5-a648-91afdfbc1a53
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 香港-02-1I
+  name: 🇺🇸 美国-03-1G
   port: 443
-  server: hk-02.speedup.club
+  server: us-03.speedup.club
   tls: true
   type: vmess
   udp: true
-  uuid: 5313d467-524c-44bd-8afc-24bfb8d5bfa7
+  uuid: edac7441-ff47-4772-bf36-e991e9610966
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本01-1G
-  password: fd5caa96-d1ab-4595-9b10-aa985b6299da
-  port: 20002
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 3-1R
-  network: ws
-  port: 80
-  server: m2-sg3.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05df2bf7-6445-411a-a3d9-759bd391505e
-  ws-opts:
-    headers:
-      Host: m2-sg3.m2network.icu
-    path: /ws?ed=2560
-- auth: 1ab84705-ff99-4246-bfcb-69c48c777c74
-  name: 🇰🇷 韩国-首尔-1A
-  password: 1ab84705-ff99-4246-bfcb-69c48c777c74
-  port: 30001
-  server: oracle-arm-seoul1.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本02-1A
-  port: 35705
-  server: sdcu.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港05-备用-1F
-  password: 30c575c2-fe18-4235-b4cd-a254409c6586
-  port: 15639
-  server: 140.249.160.81
-  type: ss
-  udp: true
-- name: 🇸🇬 新加坡-直连-1E
-  password: 1c6d9d5f-eea6-4319-8399-aaf670c4213f
-  port: 53443
-  server: sg-01.sedfsdinkjiusa5d98897d4as54fg.sanxi.online
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡02-1F
-  password: 6a4f7d76-06f8-48be-83ae-240aa30608c8
-  port: 15637
+  name: 🇺🇸 美国02-1N
+  password: 8093cc21-d837-4d29-ac13-e763c642421e
+  port: 15628
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇹🇼 台湾03-1C
-  network: ws
-  port: 22481
-  server: jscm.skycloud.lol
+  name: 🇺🇸 美国01-GHAT-1C
+  port: 55046
+  server: shcm.skycloud.lol
   tls: false
   type: vmess
   udp: true
   uuid: f611a30a-a513-4152-bc4e-f2311bb25d61
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1C
+  password: 6e868149-03bb-45f3-9f51-5346d2b8be05
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 4-1O
+  network: ws
+  port: 80
+  server: m2-us1.m2network.icu
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6f03417a-e08f-4a25-9d15-41843095a192
   ws-opts:
     headers:
-      Host: tw.cylink.tech
-    path: /www/wwwroot/tw.cylink.tech
+      Host: m2-us1.m2network.icu
+    path: /ws?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1I
+  password: b7fc7de3-decd-47cf-bef8-36a9b43593a2
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 1|美国01|X1|XD中港1-1A
   password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
@@ -387,29 +181,20 @@ proxies:
   server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 V3 台湾 华东专线-NF
-  port: 31421
-  server: azi.cn2.xiaomi-api.xyz
-  tls: false
-  type: vmess
+- auth: 1ab84705-ff99-4246-bfcb-69c48c777c74
+  name: 🇺🇸 北美-US-圣何塞-2-1A
+  password: 1ab84705-ff99-4246-bfcb-69c48c777c74
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
   udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 日本06-1B
-  port: 19580
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡03-1J
+  name: 🇺🇸 美国04-1J
   network: ws
-  port: 31249
+  port: 59243
   server: szcm.skycloud.lol
   tls: false
   type: vmess
@@ -420,156 +205,75 @@ proxies:
       Host: nrt.cylink.tech
     path: /www/wwwroot/nrt.cylink.tech
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1|日本01|X1|DF1-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 33030
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 新加坡 1-1D
-  network: ws
-  port: 80
-  server: m2-sg1.m2network.icu
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 77f9e923-c96a-4bf7-b21b-ef6e4ee267d1
-  ws-opts:
-    headers:
-      Host: m2-sg1.m2network.icu
-    path: /ws?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港02-1F
-  password: bb5e9750-dd99-437c-ae33-a6dc8cc3f820
-  port: 20035
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港04-备用-1B
+  name: 🇺🇸 美国04-1D
   password: 9d383b18-15d1-4fb5-a648-91afdfbc1a53
-  port: 15638
-  server: 140.249.160.81
-  type: ss
-  udp: true
-- auth: 07ae30f6-a806-49c6-8478-39e59ab52c0d
-  name: 🇯🇵 日本-1-1B
-  password: 07ae30f6-a806-49c6-8478-39e59ab52c0d
-  port: 30001
-  server: oracle-amd-tokyo1.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: tokyo.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡01-1C
-  password: f5f8da2f-2d0f-4198-8c10-19335efdde73
-  port: 15636
+  port: 15728
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 2|英国05|X1|XD中新-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 24210
-  server: xd-xjp9.bestdong.xyz
+  name: 🇺🇸 美国CF07-1D
+  password: 6a4f7d76-06f8-48be-83ae-240aa30608c8
+  port: 15733
+  server: gdcub.yunnode.win
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 V2 日本 华南专线
-  port: 31031
+  name: 🇺🇸 V2 美国 华南专线
+  port: 31061
   server: azi.cm2.xiaomi-api.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1|日本02|X1|XD中日1-1A
+  name: 🇺🇸 2|美国05|X1|上海LL-1A
   password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 28916
-  server: xd-zhongri1.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港02-1C
-  network: ws
-  port: 33176
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
-  ws-opts:
-    headers:
-      Host: hkg.cylink.tech
-    path: /www/wwwroot/hkg.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|香港05|X1|上海LL-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 24049
+  port: 24021
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 V1 香港 移动专线
-  port: 31011
-  server: azi.cm.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 2|日本05|X1|上海LL-1B
+  name: 🇺🇸 2|美国06|X1|上海LL-1B
   password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 24018
+  port: 24022
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾01-1K
-  password: fd5caa96-d1ab-4595-9b10-aa985b6299da
-  port: 47564
+  name: 🇺🇸 1|美国L|X1|DF1-1B
+  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
+  port: 59994
+  server: df-01.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1I
+  password: 20c42480-62f5-4750-9cdb-17725be7eb4d
+  port: 56011
   server: gd.xueyejiasu.com
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港直连01-1C
-  network: ws
-  port: 443
-  server: hk01.xfxnode.top
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1J
+  password: 6a4f7d76-06f8-48be-83ae-240aa30608c8
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
   udp: true
-  uuid: 6e868149-03bb-45f3-9f51-5346d2b8be05
-  ws-opts:
-    headers:
-      Host: hk01.xfxnode.top
-    path: /hk01
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本01-GHAT-1A
-  network: ws
-  port: 15375
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1B
+  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
+  type: ss
   udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
 - alterId: 0
   cipher: auto
-  name: 🇸🇬 新加坡04-1A
+  name: 🇺🇸 美国03-1A
   network: ws
-  port: 30290
+  port: 19461
   server: jscm.skycloud.lol
   tls: false
   type: vmess
@@ -579,122 +283,48 @@ proxies:
     headers:
       Host: nrt.cylink.tech
     path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 B US-1A
+  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
+  port: 32881
+  server: usa2.iepl.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇹🇼 V1 台湾 移动专线
-  port: 31021
-  server: azi.cm.xiaomi-api.xyz
+  name: 🇺🇸 V3 美国 华东专线-NF
+  port: 31461
+  server: azi.cn2.xiaomi-api.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾01-1N
-  password: 30c575c2-fe18-4235-b4cd-a254409c6586
-  port: 15632
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港12-1C
-  network: ws
-  port: 45093
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f611a30a-a513-4152-bc4e-f2311bb25d61
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 C SG-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 35107
-  server: sg3.iepl.cooc.icu
+  name: 🇭🇰 2|美国05|X1|XD中港1-1B
+  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
+  port: 25021
+  server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港07-备用-1E
-  password: 8093cc21-d837-4d29-ac13-e763c642421e
-  port: 15641
-  server: 140.249.160.81
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 B TW-1A
-  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
-  port: 35110
-  server: tw2.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本07-1C
-  network: ws
-  port: 48189
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f611a30a-a513-4152-bc4e-f2311bb25d61
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港09-1C
-  port: 50285
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f611a30a-a513-4152-bc4e-f2311bb25d61
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 C JP-1A
-  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
-  port: 19881
-  server: jp3.iepl.cooc.icu
-  type: ss
-  udp: true
-- auth: 1ab84705-ff99-4246-bfcb-69c48c777c74
-  name: 🇯🇵 日本-2-1A
-  password: 1ab84705-ff99-4246-bfcb-69c48c777c74
-  port: 30001
-  server: oracle-amd-osaka1.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: osaka.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 日本08-1B
-  network: ws
-  port: 25123
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 2|日本06|X1|上海LL-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 24019
+  name: 🇺🇸 2|美国08|X1|上海LL-1B
+  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
+  port: 24038
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 C US-1B
+  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
+  port: 33881
+  server: usa3.iepl.cooc.icu
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 日本05-GHAT-1C
+  name: 🇺🇸 美国02-1R
   network: ws
-  port: 12862
+  port: 43701
   server: sdcu.skycloud.lol
   tls: false
   type: vmess
@@ -706,279 +336,24 @@ proxies:
     path: /www/wwwroot/nrt.cylink.tech
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 V3 香港 华南专线-NF
-  port: 31011
-  server: azi.cm3.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|香港02|X1|XD中港2-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 26015
-  server: xd-zg2.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 V3 台湾 华中专线-NF
-  port: 31421
-  server: azi.cn1.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 V2 香港 华南专线
-  port: 31011
-  server: azi.cm2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 C TW-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 35111
-  server: tw3.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1|日本01|X1|XD中日1-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 28912
-  server: xd-zhongri1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 07ae30f6-a806-49c6-8478-39e59ab52c0d
-  name: 🇰🇷 韩国-1-1B
-  password: 07ae30f6-a806-49c6-8478-39e59ab52c0d
-  port: 30001
-  server: oracle-arm-chuncheon1.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: korea.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港家宽-直连0.3x-1A
-  network: ws
-  port: 28088
-  server: hkt.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: hkg.cylink.tech
-    path: /www/wwwroot/hkg.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾01-GHAT-1A
-  port: 48002
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 A JP-1A
-  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
-  port: 47100
-  server: jp1.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港10-1C
-  network: ws
-  port: 16547
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f611a30a-a513-4152-bc4e-f2311bb25d61
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 V3 台湾 华南专线-NF
-  port: 31021
-  server: azi.cm3.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 2|台湾06|X1|上海LL-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 24092
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 V1 新加坡 移动专线
-  port: 31041
+  name: 🇺🇸 V1 美国 移动专线
+  port: 31061
   server: azi.cm.xiaomi-api.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本 B JP-1B
+  name: 🇺🇸 美国 A US-1B
   password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 47101
-  server: jp2.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|香港07|X1|上海LL-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 24039
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰 香港03-1C
-  password: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
-  port: 33630
-  server: jscm.skycloud.lol
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|香港02|X1|XD中港HKT-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 41015
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1|日本L|X1|DF1-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 59995
-  server: df-01.bestdong.xyz
+  port: 31881
+  server: usa1.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 V3 香港 华东专线-NF
-  port: 31411
-  server: azi.cn2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- auth: 07ae30f6-a806-49c6-8478-39e59ab52c0d
-  name: 🇸🇬 新加坡-1-1B
-  password: 07ae30f6-a806-49c6-8478-39e59ab52c0d
-  port: 30001
-  server: oracle-amd-singapore1.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: main.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 台湾02-1A
-  network: ws
-  port: 56292
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3b68a909-3e63-4a56-8fee-9c6f3ebfd0a4
-  ws-opts:
-    headers:
-      Host: tw.cylink.tech
-    path: /www/wwwroot/tw.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 V3 新加坡 华南专线-NF
-  port: 31341
-  server: azi.cm3.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 B HK-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 22881
-  server: hk2.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 C HK-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 23881
-  server: hk3.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 新加坡 B SG-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 35106
-  server: sg2.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 V2 台湾 华中专线
-  port: 31121
-  server: azi.ct.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 V2 日本 华中专线
-  port: 31131
-  server: azi.ct.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 V2 新加坡 华中专线
-  port: 31141
-  server: azi.ct.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 香港 A HK-1A
-  password: a0b89a3c-f832-4aaa-862b-ffc3b795a6d0
-  port: 21881
-  server: hk1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 V3 日本 华中专线-NF
-  port: 31431
+  name: 🇺🇸 V3 美国 华中专线-NF
+  port: 31461
   server: azi.cn1.xiaomi-api.xyz
   tls: false
   type: vmess
@@ -986,531 +361,10 @@ proxies:
   uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 日本04-1C
-  network: ws
-  port: 23426
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7fca613e-2c99-4a0d-b621-1174eb4d5bd3
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|香港L|X1|DF1-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 59993
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 2|台湾05|X1|上海LL-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 24020
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 台湾 A TW-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 35109
-  server: tw1.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 V1 日本 移动专线
-  port: 31031
-  server: azi.cm.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 V3 新加坡 华东专线-NF
-  port: 31441
-  server: azi.cn2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 V2 新加坡 华南专线
-  port: 31041
-  server: azi.cm2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 V3 香港 华中专线-NF
-  port: 31411
-  server: azi.cn1.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 V2 香港 华中专线
-  port: 31111
-  server: azi.ct.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷 韩国 A KR-1B
-  password: 885c6cc0-4478-4b67-8842-c1a43ffca390
-  port: 35101
-  server: kr1.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 V3 日本 华东专线-NF
-  port: 31431
-  server: azi.cn2.xiaomi-api.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|香港01|X1|XD中港HKT-1B
-  password: c8b23b91-ff4f-4a3f-84bb-2c25e9b44691
-  port: 60003
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 1|日本01|X1|上海LL-1A
-  password: 4f63f466-6207-488e-9e69-0e1aa2c0267c
-  port: 24012
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 V3 日本 华南专线-NF
-  port: 31331
+  name: 🇺🇸 V3 美国 华南专线-NF
+  port: 31361
   server: azi.cm3.xiaomi-api.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 404a5334-dc3e-449e-aa06-c6f44da87163
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-台湾
-  port: 22240
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG | 新加坡 LB-1A
-  network: ws
-  port: 443
-  server: sgcft01.xqc.best
-  servername: d1nal26v8jyfe2.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8dbe1769-5566-40cb-945f-35d2f62e8a32
-  ws-opts:
-    headers:
-      Host: d1nal26v8jyfe2.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK | 香港 LB-1L
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: d84zxlca209ol.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3253d9e6-1ee6-463f-9625-686214ab549b
-  ws-opts:
-    headers:
-      Host: d84zxlca209ol.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP | 日本 LB-1G
-  network: ws
-  port: 443
-  server: jpcft01.xqc.best
-  servername: dd7xps5fj6dfo.cloudfront.net
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3e5c89ed-6b4a-4b59-970e-b4f912494b00
-  ws-opts:
-    headers:
-      Host: dd7xps5fj6dfo.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-香港2
-  port: 35213
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-新加坡
-  port: 22231
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-印度
-  port: 35223
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-英国
-  port: 22229
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-加拿大
-  port: 35216
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-德国
-  port: 22230
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP | 日本 专线
-  network: ws
-  port: 30001
-  server: jp.runjustfast.com
-  servername: jp1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: jp1.runjustfast.com
-    path: /21a64xdea04c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港
-  port: 10010
-  server: xg1.tcity8.buzz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG | 新加坡 02
-  network: ws
-  port: 30002
-  server: gzo.runjustfast.com
-  servername: sg1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: sg1.runjustfast.com
-    path: /2sa6gxdea14c
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 TW | 台湾 01
-  network: ws
-  port: 30003
-  server: gzog.runjustfast.com
-  servername: tw1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: tw1.runjustfast.com
-    path: /t1a64wdea01c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-澳大利亚
-  port: 22237
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-新加坡
-  port: 35217
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼 TW | 台湾 02
-  network: ws
-  port: 30003
-  server: gzo.runjustfast.com
-  servername: tw1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: tw1.runjustfast.com
-    path: /t1a64wdea01c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK | 香港 专线
-  network: ws
-  port: 35004
-  server: gd.runjustfast.com
-  servername: hk1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: hk1.runjustfast.com
-    path: /31k64xkea01x
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK | 香港 02
-  network: ws
-  port: 35004
-  server: gzo.runjustfast.com
-  servername: hk1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: hk1.runjustfast.com
-    path: /31k64xkea01x
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-英国
-  port: 35221
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP | 日本 02
-  network: ws
-  port: 30001
-  server: gzo.runjustfast.com
-  servername: jp1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: jp1.runjustfast.com
-    path: /21a64xdea04c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-德国
-  port: 35222
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK | 香港 01
-  network: ws
-  port: 35004
-  server: gzog.runjustfast.com
-  servername: hk1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: hk1.runjustfast.com
-    path: /31k64xkea01x
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港3
-  port: 10010
-  server: xg3.tcity8.buzz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-澳大利亚
-  port: 35220
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-加拿大
-  port: 22236
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-香港3
-  port: 35214
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-日本
-  port: 22235
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-日本
-  port: 35218
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-香港1
-  port: 35212
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 JP | 日本 01
-  network: ws
-  port: 30001
-  server: gzog.runjustfast.com
-  servername: jp1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: jp1.runjustfast.com
-    path: /21a64xdea04c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 深港专线-台湾
-  port: 35224
-  server: dzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-香港3
-  port: 22003
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 SG | 新加坡 01
-  network: ws
-  port: 30002
-  server: gzog.runjustfast.com
-  servername: sg1.runjustfast.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 858da224-24f3-4662-8ab9-85e6364d72ea
-  ws-opts:
-    headers:
-      Host: sg1.runjustfast.com
-    path: /2sa6gxdea14c
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-印度
-  port: 22238
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-香港1
-  port: 22224
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 中港隧道-香港2
-  port: 22226
-  server: jzgz.tcity8.monster
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e98ae6b-814b-404f-8489-e66d38ccab1b
