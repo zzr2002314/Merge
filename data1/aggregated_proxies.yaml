@@ -1,37 +1,358 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1C
-  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-GHAT-1D
-  port: 55046
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e70f221-6008-420c-a65a-73d8f0f6c59d
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1B
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
+  name: 🇺🇸 美国CF06-1E
+  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
   port: 15731
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 C US-1A
-  password: e0833338-1477-44ff-b6de-14ed35f9d8d7
-  port: 33881
-  server: usa3.iepl.cooc.icu
+  name: 🇺🇸 美国03-1K
+  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: 493b846f-407e-424e-bd7e-1c711d872790
+  name: 🇺🇸 美国 03-1J
+  password: 493b846f-407e-424e-bd7e-1c711d872790
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 01-1C
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1|美国L|X1|DF1-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
+  port: 59994
+  server: df-01.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 02-1O
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1N
+  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1A
+  password: d8486916-6a51-4ce5-967c-391021d3c021
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1F
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1H
+  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 02-1N
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 01-1E
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1B
+  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 03-1C
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 03-1G
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1H
+  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 02-1M
+  password: d284706b-f713-4f94-873e-b13eb3114aab
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-03-1B
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 24f1e564-5522-46d4-a866-60951cec8002
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1A
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 04-1K
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 02-1L
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国06|X1|上海LL-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 24022
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 2|美国05|X1|XD中港1-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 25021
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1K
+  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1D
+  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01丨江苏移动优化
+  password: 7f40b798-485a-4c10-bd0c-dc453ef3710c
+  port: 41775
+  server: 0e8383f2446d374c.cdn.jiashule.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1A
+  password: d8486916-6a51-4ce5-967c-391021d3c021
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 01-1B
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1E
+  password: 28ae5b3b-833f-4d4a-9623-e2d90a27a374
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1W
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1Q
+  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1B
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1G
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1D
+  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1G
+  password: 28ae5b3b-833f-4d4a-9623-e2d90a27a374
+  port: 42414
+  server: gd.xueyejiasu.com
   type: ss
   udp: true
 - auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 02-1J
+  name: 🇺🇸 美国 02-1F
   password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-GHAT-1F
+  port: 55046
+  server: shcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国05|X1|上海LL-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
+  port: 24021
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 01-1M
+  password: d284706b-f713-4f94-873e-b13eb3114aab
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 03-1L
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1O
+  password: b8e08f98-5a49-494a-9007-c2080243e120
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 01-1A
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1N
+  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 01-1N
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 02-1E
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
   port: 44300
   server: us-02.worldfirst.eu.org
   skip-cert-verify: true
@@ -40,182 +361,27 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 美国01-1R
-  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
+  password: a5c18454-7ed1-4d33-a44e-fc369e8995d8
   port: 56011
   server: gd.xueyejiasu.com
   type: ss
   udp: true
-- auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 04-1K
-  password: 493b846f-407e-424e-bd7e-1c711d872790
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 01-1E
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1I
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1I
-  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1B
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01丨山东移动优化
-  password: 62ec9fe6-bcc6-47b6-a08e-e593298862e8
-  port: 44592
-  server: afa007d388783f3a.cdn.jiashule.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 B US-1A
-  password: e0833338-1477-44ff-b6de-14ed35f9d8d7
-  port: 32881
-  server: usa2.iepl.cooc.icu
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-GHAT-1C
-  port: 55046
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 04-1A
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港1-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
-  port: 25013
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1H
-  password: 619996d4-9888-4845-b1bd-e36df7e8f241
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1L
-  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
+  name: 🇺🇸 美国02-1U
+  password: b8e08f98-5a49-494a-9007-c2080243e120
   port: 58159
   server: gd.xueyejiasu.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国06|X1|上海LL-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
-  port: 24022
+  name: 🇺🇸 2|美国05|X1|上海LL-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 24021
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1C
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1F
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1N
-  password: 619996d4-9888-4845-b1bd-e36df7e8f241
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1A
-  password: b29499f2-a8bc-4731-a2a4-7753133fbd62
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国03-1E
-  network: ws
-  port: 19461
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e9238b3-7d6e-41e5-8d3f-78acb31f9a70
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 B US-1B
-  password: de15f0c6-f57a-4bae-9120-64e8cbf06036
-  port: 32881
-  server: usa2.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1O
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1H
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1B
-  password: 1fbadcd2-3f6b-4c8a-8d83-bc53b5c3da21
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
 - auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 02-1H
+  name: 🇺🇸 美国 02-1C
   password: f828ad92-7305-4cce-ad1d-61983a0177a3
   port: 44300
   server: us-02.worldfirst.eu.org
@@ -224,237 +390,58 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1P
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15628
-  server: gdcub.yunnode.win
+  name: 🇭🇰 1|美国01|X1|XD中港1-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
+  port: 25013
+  server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 04-1L
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1H
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 01-1F
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 A US-1A
-  password: e0833338-1477-44ff-b6de-14ed35f9d8d7
-  port: 31881
-  server: usa1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国06|X1|上海LL-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
-  port: 24022
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 C US-1C
-  password: 838c4a3f-378f-4563-b43d-8b0e8689fe04
-  port: 33881
-  server: usa3.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国05|X1|上海LL-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 24021
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1D
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 04-1E
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1F
-  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1B
-  password: 1fbadcd2-3f6b-4c8a-8d83-bc53b5c3da21
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 03-1K
-  password: 493b846f-407e-424e-bd7e-1c711d872790
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 03-1B
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 04-1F
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1F
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 04-1D
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1D
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国05|X1|上海LL-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
-  port: 24021
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 01-1C
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 04-1H
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1J
-  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1Y
-  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 C US-1B
-  password: de15f0c6-f57a-4bae-9120-64e8cbf06036
-  port: 33881
-  server: usa3.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1C
-  password: 1fbadcd2-3f6b-4c8a-8d83-bc53b5c3da21
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 01-1H
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1Q
-  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 03-1I
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 03-1O
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
-  port: 24038
-  server: ll-sh1.bestdong.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国04-1B
+  network: ws
+  port: 59243
+  server: szcm.skycloud.lol
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1I
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
+  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国02-1B
+  network: ws
+  port: 43701
+  server: sdcu.skycloud.lol
+  tls: false
+  type: vmess
   udp: true
-- auth: 676c3633-65b7-49fe-9a38-4449dd010dd3
-  name: 🇺🇸 北美-US-圣何塞-2-1A
-  password: 676c3633-65b7-49fe-9a38-4449dd010dd3
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
+  uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国-03-1E
@@ -463,94 +450,9 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: bb662caf-0e46-445c-a21b-8bbd7de96855
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 04-1C
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
-  port: 59994
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国06|X1|上海LL-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
-  port: 24022
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 02-1L
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1E
-  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1G
-  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1A
-  password: b29499f2-a8bc-4731-a2a4-7753133fbd62
-  port: 56011
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1K
-  password: d8486916-6a51-4ce5-967c-391021d3c021
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
-  port: 59994
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-GHAT-1B
-  port: 55046
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e9238b3-7d6e-41e5-8d3f-78acb31f9a70
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 04-1G
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
+  uuid: 5acc5b2b-50f2-40cb-ae6b-9cfc51a0eeb6
 - auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 03-1E
+  name: 🇺🇸 美国 03-1K
   password: 321226fc-3c79-45ae-b5b7-d30d948556a1
   port: 44300
   server: us-03.worldfirst.eu.org
@@ -558,9 +460,149 @@ proxies:
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1F
+  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1E
+  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1B
+  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 02-1H
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1F
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1I
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1G
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1C
+  password: 28ae5b3b-833f-4d4a-9623-e2d90a27a374
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国02-1V
+  name: 🇺🇸 美国-03-1D
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 85218096-bc56-4f07-832a-556aba456dd6
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 C US-1A
+  password: 91fa077c-0852-4a1c-9f63-bb2019f2cca9
+  port: 33881
+  server: usa3.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1G
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1C
+  password: 28ae5b3b-833f-4d4a-9623-e2d90a27a374
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 03-1D
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 04-1C
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 04-1G
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-03-1G
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bb662caf-0e46-445c-a21b-8bbd7de96855
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 02-1A
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1O
+  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国02-1F
   network: ws
   port: 43701
   server: sdcu.skycloud.lol
@@ -568,36 +610,6 @@ proxies:
   type: vmess
   udp: true
   uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 03-1J
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1M
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国04-1K
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e70f221-6008-420c-a65a-73d8f0f6c59d
   ws-opts:
     headers:
       Host: nrt.cylink.tech
@@ -611,278 +623,44 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: cde92bf7-e4bc-44f9-b58c-f13f5d9edd73
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 B US-1C
-  password: 838c4a3f-378f-4563-b43d-8b0e8689fe04
-  port: 32881
-  server: usa2.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1E
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国03-1O
-  network: ws
-  port: 19461
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国04-1G
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
   uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
   ws-opts:
     headers:
       Host: nrt.cylink.tech
     path: /www/wwwroot/nrt.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国02-1T
-  network: ws
-  port: 43701
-  server: sdcu.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 03-1B
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
-  port: 24038
-  server: ll-sh1.bestdong.xyz
+  name: 🇺🇸 美国03-1O
+  password: a5c18454-7ed1-4d33-a44e-fc369e8995d8
+  port: 42414
+  server: gd.xueyejiasu.com
   type: ss
   udp: true
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 02-1B
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1Q
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1I
-  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
+  name: 🇺🇸 美国 纽约2-1G
+  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
   port: 20016
   server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 01-1J
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1E
-  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
-  port: 56011
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1G
+  name: 🇺🇸 美国01-1I
   password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1D
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
   port: 15532
   server: gdcub.yunnode.win
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国04-1A
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cde92bf7-e4bc-44f9-b58c-f13f5d9edd73
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1I
-  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 A US-1B
-  password: de15f0c6-f57a-4bae-9120-64e8cbf06036
-  port: 31881
-  server: usa1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1E
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国02-1J
-  network: ws
-  port: 43701
-  server: sdcu.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1H
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国02-1S
-  network: ws
-  port: 43701
-  server: sdcu.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1G
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 🇺🇸 美国04-1M
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1F
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15532
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15728
   server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国03-1M
-  network: ws
-  port: 19461
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1D
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 011f816a-2e94-4ae9-8686-90b1b4572231
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 02-1C
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1A
-  password: b29499f2-a8bc-4731-a2a4-7753133fbd62
-  port: 42414
-  server: gd.xueyejiasu.com
   type: ss
   udp: true
 - alterId: 0
@@ -900,167 +678,112 @@ proxies:
       Host: nrt.cylink.tech
     path: /www/wwwroot/nrt.cylink.tech
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1D
-  password: d8486916-6a51-4ce5-967c-391021d3c021
+  name: 🇺🇸 2|美国08|X1|上海LL-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 24038
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1R
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1L
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1F
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1H
+  password: b8e08f98-5a49-494a-9007-c2080243e120
   port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国05|X1|上海LL-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
-  port: 24021
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1Q
-  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1C
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01丨江苏移动优化
-  password: 62ec9fe6-bcc6-47b6-a08e-e593298862e8
-  port: 41775
-  server: 0e8383f2446d374c.cdn.jiashule.com
-  type: ss
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 02-1A
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 03-1A
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1E
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国02-1B
-  network: ws
-  port: 43701
-  server: sdcu.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cde92bf7-e4bc-44f9-b58c-f13f5d9edd73
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1L
-  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
-  port: 56011
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 03-1G
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1I
-  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
-  port: 56011
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1H
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: dedcbfd5-c717-418d-a933-06a05ef404c0
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国05|X1|上海LL-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
-  port: 24021
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1D
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1H
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1A
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 37536dda-c9ae-4bdf-8d77-c6782cd80822
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1H
+  name: 🇺🇸 美国03-1A
   password: d8486916-6a51-4ce5-967c-391021d3c021
-  port: 56011
+  port: 42414
   server: gd.xueyejiasu.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港1-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 25013
-  server: xd-zg1.bestdong.xyz
+  name: 🇺🇸 美国02-1P
+  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 04-1H
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 03-1H
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1E
+  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1D
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1I
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1D
+  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1T
+  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 A US-1A
+  password: 91fa077c-0852-4a1c-9f63-bb2019f2cca9
+  port: 31881
+  server: usa1.iepl.cooc.icu
   type: ss
   udp: true
 - alterId: 0
@@ -1071,162 +794,190 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: cde92bf7-e4bc-44f9-b58c-f13f5d9edd73
+  uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1P
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1J
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1A
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
-  port: 24038
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1A
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 03-1H
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 01-1B
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 01-1L
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 03-1C
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
+  name: 🇺🇸 1|美国L|X1|DF1-1C
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
   port: 59994
   server: df-01.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1F
-  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1D
-  password: d8486916-6a51-4ce5-967c-391021d3c021
+  name: 🇺🇸 美国 纽约2-1H
+  password: b8e08f98-5a49-494a-9007-c2080243e120
   port: 20016
   server: gy.666666222.shop
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1H
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 01-1I
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 02-1D
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
   port: 44300
-  server: us-01.worldfirst.eu.org
+  server: us-02.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1O
-  password: 619996d4-9888-4845-b1bd-e36df7e8f241
-  port: 56011
-  server: gd.xueyejiasu.com
+  name: 🇺🇸 美国 纽约2-1I
+  password: a5c18454-7ed1-4d33-a44e-fc369e8995d8
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-GHAT-1D
+  port: 55046
+  server: shcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e9238b3-7d6e-41e5-8d3f-78acb31f9a70
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01丨山东移动优化
+  password: 7f40b798-485a-4c10-bd0c-dc453ef3710c
+  port: 44592
+  server: afa007d388783f3a.cdn.jiashule.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1G
-  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1D
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1J
+  name: 🇺🇸 美国04-1K
   password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
   port: 15728
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1G
-  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
+  name: 🇺🇸 美国04-1G
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-03-1I
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 767279b9-c08b-40d2-87ba-e288af7b7ae0
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1D
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-03-1H
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 785fedfb-39ad-4b0b-bd8e-da7843600b0b
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1H
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国06|X1|上海LL-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 24022
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 04-1D
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国06|X1|上海LL-1C
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
+  port: 24022
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国05|X1|上海LL-1C
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
+  port: 24021
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1F
+  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
   port: 20016
   server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 01-1K
-  password: 493b846f-407e-424e-bd7e-1c711d872790
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 04-1E
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
   port: 44300
-  server: us-01.worldfirst.eu.org
+  server: us-04.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国02-1R
+  name: 🇺🇸 美国03-1D
+  network: ws
+  port: 19461
+  server: jscm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1G
+  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国02-1C
+  network: ws
+  port: 43701
+  server: sdcu.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1C
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国02-1M
   network: ws
   port: 43701
   server: sdcu.skycloud.lol
@@ -1239,24 +990,886 @@ proxies:
       Host: nrt.cylink.tech
     path: /www/wwwroot/nrt.cylink.tech
 - cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1V
+  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-03-1C
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 37536dda-c9ae-4bdf-8d77-c6782cd80822
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1C
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1B
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1A
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 02-1G
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 04-1L
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1A
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 01-1O
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1D
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1H
+  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 🇺🇸 美国02-1N
-  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
+  network: ws
+  port: 43701
+  server: sdcu.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 2|美国05|X1|XD中港1-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 25021
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港1-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 25013
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国04-1F
+  network: ws
+  port: 59243
+  server: szcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e9238b3-7d6e-41e5-8d3f-78acb31f9a70
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1G
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国04-1A
+  network: ws
+  port: 59243
+  server: szcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1I
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国-03-1A
+  port: 443
+  server: us-03.speedup.club
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 42d54988-15ef-4c0b-b176-27b7918556ca
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1A
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1B
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1E
+  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国08|X1|上海LL-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 24038
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国04-1J
+  network: ws
+  port: 59243
+  server: szcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1A
+  password: d8486916-6a51-4ce5-967c-391021d3c021
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 04-1O
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 03-1E
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 04-1I
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1G
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 493b846f-407e-424e-bd7e-1c711d872790
+  name: 🇺🇸 美国 04-1J
+  password: 493b846f-407e-424e-bd7e-1c711d872790
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国03-1E
+  network: ws
+  port: 19461
+  server: jscm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3e9238b3-7d6e-41e5-8d3f-78acb31f9a70
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 01-1I
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1x
+  password: a5c18454-7ed1-4d33-a44e-fc369e8995d8
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 03-1N
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 04-1A
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1A
+  password: d8486916-6a51-4ce5-967c-391021d3c021
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1C
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国03-1I
+  network: ws
+  port: 19461
+  server: jscm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2e70f221-6008-420c-a65a-73d8f0f6c59d
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国06|X1|上海LL-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
+  port: 24022
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1C
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1F
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1M
+  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国08|X1|上海LL-1C
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
+  port: 24038
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1N
+  password: b8e08f98-5a49-494a-9007-c2080243e120
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1|美国L|X1|DF1-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 59994
+  server: df-01.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 493b846f-407e-424e-bd7e-1c711d872790
+  name: 🇺🇸 美国 02-1J
+  password: 493b846f-407e-424e-bd7e-1c711d872790
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1K
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1L
+  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 04-1M
+  password: d284706b-f713-4f94-873e-b13eb3114aab
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国03-1C
+  network: ws
+  port: 19461
+  server: jscm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1H
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1H
+  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国05|X1|上海LL-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 24021
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 02-1B
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1L
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1C
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1D
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1E
+  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 B US-1B
+  password: 7843532f-86b1-4e4e-b5c7-881d1538254f
+  port: 32881
+  server: usa2.iepl.cooc.icu
+  type: ss
+  udp: true
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 04-1F
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国03-1J
+  network: ws
+  port: 19461
+  server: jscm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1C
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 03-1M
+  password: d284706b-f713-4f94-873e-b13eb3114aab
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 03-1F
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1E
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1B
+  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 A US-1B
+  password: 7843532f-86b1-4e4e-b5c7-881d1538254f
+  port: 31881
+  server: usa1.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1I
+  password: 28ae5b3b-833f-4d4a-9623-e2d90a27a374
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 C US-1B
+  password: 7843532f-86b1-4e4e-b5c7-881d1538254f
+  port: 33881
+  server: usa3.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1O
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1F
+  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1C
+  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1|美国L|X1|DF1-1A
+  password: cbcec37d-55ea-469a-8b87-ae61e5e6ef02
+  port: 59994
+  server: df-01.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1H
+  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1D
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 01-1K
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1D
+  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国08|X1|上海LL-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
+  port: 24038
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1I
+  password: a5c18454-7ed1-4d33-a44e-fc369e8995d8
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-GHAT-1B
+  port: 55046
+  server: shcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1E
+  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 03-1I
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国04-1I
+  network: ws
+  port: 59243
+  server: szcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2e70f221-6008-420c-a65a-73d8f0f6c59d
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 03-1A
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国01-GHAT-1C
+  port: 55046
+  server: shcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 B US-1A
+  password: 91fa077c-0852-4a1c-9f63-bb2019f2cca9
+  port: 32881
+  server: usa2.iepl.cooc.icu
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1P
+  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 01-1D
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 04-1N
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1J
+  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
   port: 58159
   server: gd.xueyejiasu.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 1|美国01|X1|XD中港1-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
   port: 25013
   server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1E
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15729
+  name: 🇺🇸 美国01-1M
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15532
   server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 04-1B
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 01-1G
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 2|美国05|X1|XD中港1-1C
+  password: 59ff76cd-b8c0-43d0-9bce-7de3bf7017e2
+  port: 25021
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1B
+  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 02-1I
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港1-1B
+  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
+  port: 25013
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 01-1F
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国04-1E
+  network: ws
+  port: 59243
+  server: szcm.skycloud.lol
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
+  ws-opts:
+    headers:
+      Host: nrt.cylink.tech
+    path: /www/wwwroot/nrt.cylink.tech
+- auth: 70fe5457-4bd5-47be-adf4-9401c519c7c6
+  name: 🇺🇸 北美-US-圣何塞-2
+  password: 70fe5457-4bd5-47be-adf4-9401c519c7c6
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1L
+  password: e1d2b87b-a7e6-41a9-bd44-057093ac7c34
+  port: 15532
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 01-1L
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 02-1K
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1F
+  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
+  port: 20013
+  server: gy.666666222.shop
   type: ss
   udp: true
 - alterId: 0
@@ -1270,682 +1883,96 @@ proxies:
   uuid: 5e756dbc-d4d6-43c5-9f70-145ef5be3fe5
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 美国04-1N
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1P
-  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 01-1G
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国03-1F
-  network: ws
-  port: 19461
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6e6b75a3-b60c-4c6e-b330-19837e90e103
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1O
-  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1I
-  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 01-1D
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-GHAT-1F
-  port: 55046
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b2a94620-d314-4a16-a49f-c867dcc407b0
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 04-1B
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1F
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1C
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 34d24a61-0d79-4fda-8d4f-8eefcc84baec
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1C
-  password: 1fbadcd2-3f6b-4c8a-8d83-bc53b5c3da21
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1H
-  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1G
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 42d54988-15ef-4c0b-b176-27b7918556ca
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1C
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1D
-  password: 36b9fb74-c5be-4cba-8c83-99fcac75e2b3
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1H
-  password: 619996d4-9888-4845-b1bd-e36df7e8f241
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1x
-  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 03-1D
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1W
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 🇺🇸 美国01-GHAT-1E
   port: 55046
   server: shcm.skycloud.lol
   tls: false
   type: vmess
   udp: true
-  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
+  uuid: 2e70f221-6008-420c-a65a-73d8f0f6c59d
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 A US-1C
-  password: 838c4a3f-378f-4563-b43d-8b0e8689fe04
-  port: 31881
-  server: usa1.iepl.cooc.icu
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1K
-  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
-  port: 56011
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1G
-  password: d8486916-6a51-4ce5-967c-391021d3c021
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1I
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 85218096-bc56-4f07-832a-556aba456dd6
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1F
-  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1G
-  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1A
-  password: 387f0b66-6361-4df0-8dc5-f20380f0a0eb
+  name: 🇭🇰 2|美国05|X1|XD中港1-1D
+  password: 80881930-fcfa-4233-9cf1-f92fc411b8fe
   port: 25021
   server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1A
-  password: b29499f2-a8bc-4731-a2a4-7753133fbd62
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1C
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1N
-  password: 2418b9c6-8800-4fb7-a65e-2ba7a20b8383
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1A
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
+  name: 🇺🇸 美国CF06-1I
+  password: 44aaac7c-f8d0-408e-a0a8-869626f31be7
   port: 15731
   server: gdcub.yunnode.win
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1B
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1G
-  password: 9980999e-349a-4197-9b1b-92fb5f1cf590
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1E
-  password: 9e691fd8-5233-48e8-ac4a-3bb437af5cf6
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 24038
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 04-1I
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国04-1D
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3e9238b3-7d6e-41e5-8d3f-78acb31f9a70
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1C
-  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1A
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1I
-  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 02-1E
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国06|X1|上海LL-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 24022
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1I
-  password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1H
-  password: 6897f5fb-43dc-4dd5-8afe-9a6625b62ece
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1F
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1C
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
 - auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 02-1K
+  name: 🇺🇸 美国 01-1J
   password: 493b846f-407e-424e-bd7e-1c711d872790
   port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 02-1F
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-02.worldfirst.eu.org
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1B
-  password: 7fd7e5ac-cd50-4318-a4cb-8583446d3078
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1F
-  password: c9392a90-281b-4ffe-b1de-eb5cda4dfa6e
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国01-GHAT-1G
-  port: 55046
-  server: shcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b3988cc9-baa9-4512-af55-4435ca2e1200
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1C
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1D
-  password: d565787c-1eba-4da3-94c5-7e6dab68fa8a
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国-03-1B
-  port: 443
-  server: us-03.speedup.club
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5acc5b2b-50f2-40cb-ae6b-9cfc51a0eeb6
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 04-1J
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: a09d9542-c124-4c0d-a8ce-3d8930f5814b
-  name: 🇺🇸 北美-US-圣何塞-2-1B
-  password: a09d9542-c124-4c0d-a8ce-3d8930f5814b
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 02-1G
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1E
-  password: 8ae9201c-b97d-43e3-91f7-7f9cd2fee603
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1D
-  password: 1faa0b47-4c18-48f3-9f32-bf4823a879e6
-  port: 59994
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国03-1L
-  network: ws
-  port: 19461
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 02-1D
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国03-1K
-  network: ws
-  port: 19461
-  server: jscm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2e70f221-6008-420c-a65a-73d8f0f6c59d
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1B
-  password: 1fbadcd2-3f6b-4c8a-8d83-bc53b5c3da21
+  name: 🇺🇸 美国01-1J
+  password: 1c801b2b-f82a-4fc4-afdd-9a2a897809dc
   port: 56011
   server: gd.xueyejiasu.com
   type: ss
   udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 03-1F
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 01-1A
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 02-1I
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 03-1L
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1U
-  password: 619996d4-9888-4845-b1bd-e36df7e8f241
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1I
+  name: 🇺🇸 美国CF07-1H
   password: bcd7465d-5489-4f2f-9ff5-a82ead997df4
   port: 15733
   server: gdcub.yunnode.win
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港1-1B
-  password: 113f48f7-1f86-4e45-8003-26a05c8d344a
-  port: 25013
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1P
-  password: a29d72ec-23da-4613-b8e1-65cef1e2f920
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1A
-  password: b29499f2-a8bc-4731-a2a4-7753133fbd62
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1C
-  password: 9585d609-f96b-4312-aea3-5d6dd2d8c5dc
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1B
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1E
-  password: 52dcdf15-dffb-462b-8f72-7a9e9ba72f17
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国04-1L
-  network: ws
-  port: 59243
-  server: szcm.skycloud.lol
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb6a46d1-5ae2-40c3-8258-786192996178
-  ws-opts:
-    headers:
-      Host: nrt.cylink.tech
-    path: /www/wwwroot/nrt.cylink.tech
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1M
-  password: ea598672-cc23-4bdc-8681-d1fe48d724ad
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: b05ba317-700f-47e9-b38f-ec1fc6a96d59
-  name: 🇺🇸 美国 02-1M
-  password: b05ba317-700f-47e9-b38f-ec1fc6a96d59
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b05ba317-700f-47e9-b38f-ec1fc6a96d59
-  name: 🇺🇸 美国 01-1M
-  password: b05ba317-700f-47e9-b38f-ec1fc6a96d59
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 01-1H
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: b05ba317-700f-47e9-b38f-ec1fc6a96d59
-  name: 🇺🇸 美国 04-1M
-  password: b05ba317-700f-47e9-b38f-ec1fc6a96d59
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1S
+  password: bc9883f2-d711-4bbf-a854-b4da4664aa5d
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
+  name: 🇺🇸 美国 02-1P
+  password: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
+  name: 🇺🇸 美国 04-1P
+  password: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
   port: 44300
   server: us-04.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: b05ba317-700f-47e9-b38f-ec1fc6a96d59
-  name: 🇺🇸 美国 03-1M
-  password: b05ba317-700f-47e9-b38f-ec1fc6a96d59
+- auth: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
+  name: 🇺🇸 美国 01-1P
+  password: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
+  name: 🇺🇸 美国 03-1P
+  password: 3b63cd50-e586-4c15-a0d9-349ce4a3b58d
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
