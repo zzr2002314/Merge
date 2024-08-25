@@ -1,34 +1,7 @@
 proxies:
-- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  name: 🇺🇸 美国 01-2L
-  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  name: 🇺🇸 美国 03-2G
-  password: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  name: 🇺🇸 美国 01-2N
-  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  name: 🇺🇸 美国 04-1K
-  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 04-2C
+  password: d284706b-f713-4f94-873e-b13eb3114aab
   port: 44300
   server: us-04.worldfirst.eu.org
   skip-cert-verify: true
@@ -36,8 +9,17 @@ proxies:
   type: hysteria2
   udp: true
 - auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
-  name: 🇺🇸 美国 04-2W
+  name: 🇺🇸 美国 02-1U
   password: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 04-1E
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
   port: 44300
   server: us-04.worldfirst.eu.org
   skip-cert-verify: true
@@ -45,33 +27,62 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  name: 🇺🇸 美国 01-1H
+  name: 🇺🇸 美国 04-3G
   password: 606ce368-70b2-4b68-864d-8bcb1d308e17
   port: 44300
-  server: us-01.worldfirst.eu.org
+  server: us-04.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
-  port: 24038
-  server: ll-sh1.bestdong.xyz
-  type: ss
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 04-1A
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
   udp: true
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 03-1N
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+- auth: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  name: 🇺🇸 美国 02-3H
+  password: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  name: 🇺🇸 美国 04-1R
+  password: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
+  name: 🇺🇸 美国 03-2Q
+  password: d695533d-e579-49cd-aeb2-4a6089954dbf
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  name: 🇺🇸 美国 01-2K
-  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
+- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  name: 🇺🇸 美国 04-1M
+  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  name: 🇺🇸 美国 01-3C
+  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
@@ -79,7 +90,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  name: 🇺🇸 美国 03-1G
+  name: 🇺🇸 美国 03-1N
   password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
   port: 44300
   server: us-03.worldfirst.eu.org
@@ -87,106 +98,101 @@ proxies:
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国05|X1|上海LL-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
-  port: 24021
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: b27b70fa-5824-40cc-ae5f-311177754437
-  name: 🇺🇸 美国 04-2F
-  password: b27b70fa-5824-40cc-ae5f-311177754437
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 94df8591-1788-424b-b22b-014c321f81b0
-  name: 🇺🇸 美国 01-3C
-  password: 94df8591-1788-424b-b22b-014c321f81b0
+- auth: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  name: 🇺🇸 美国 01-3H
+  password: 01907a82-a051-44ff-b1bc-38a2704c1d53
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸 美国高速中转4-1A
-  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:MjIzMzE5MWEtNDJlNS00NGEwLThjYjUtZjM0ZDYzMzk=
-  port: 63324
-  server: gsgs.hy2.one
-  type: ss
-  udp: true
-- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
-  name: 🇺🇸 美国 02-1R
-  password: fc38fd12-2f14-442a-91f0-1967055e9c08
+- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  name: 🇺🇸 美国 01-2L
+  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
   port: 44300
-  server: us-02.worldfirst.eu.org
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 04-1N
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  name: 🇺🇸 美国 01-1P
+  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
   port: 44300
-  server: us-04.worldfirst.eu.org
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
-  port: 59994
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
   name: 🇺🇸 美国 02-1D
-  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
   port: 44300
   server: us-02.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 A US
-  password: 3261ed09-9560-4b55-9549-c43958d55021
-  port: 31881
-  server: usa1.iepl.cooc.icu
-  type: ss
-  udp: true
-- auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 01-1B
-  password: 493b846f-407e-424e-bd7e-1c711d872790
+- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  name: 🇺🇸 美国 01-1S
+  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 04-1x
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  name: 🇺🇸 美国 04-2N
+  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15728
+  name: 🇺🇸 美国01-1A
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15532
   server: gdcub.yunnode.win
   type: ss
   udp: true
-- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
-  name: 🇺🇸 美国 01-2I
-  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 01-2F
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01
+  password: 246c7ae2-44fe-4945-bbe3-3ddf3c1867a2
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
 - auth: d1d7004a-1e6f-4152-99ce-bffff090de59
-  name: 🇺🇸 美国 04-1L
+  name: 🇺🇸 美国 04-1Q
   password: d1d7004a-1e6f-4152-99ce-bffff090de59
   port: 44300
   server: us-04.worldfirst.eu.org
@@ -194,18 +200,18 @@ proxies:
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 94df8591-1788-424b-b22b-014c321f81b0
-  name: 🇺🇸 美国 03-3C
-  password: 94df8591-1788-424b-b22b-014c321f81b0
+- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
+  name: 🇺🇸 美国 01-1D
+  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
   port: 44300
-  server: us-03.worldfirst.eu.org
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
-  name: 🇺🇸 美国 03-1F
-  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
+- auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
+  name: 🇺🇸 美国 03-1Y
+  password: 4853b868-2e56-41fb-94fd-7f66951bb41b
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
@@ -213,8 +219,35 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
-  name: 🇺🇸 美国 01-2M
+  name: 🇺🇸 美国 04-2x
   password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  name: 🇺🇸 美国 02-1M
+  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 03-1K
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 01-2C
+  password: d284706b-f713-4f94-873e-b13eb3114aab
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
@@ -222,14 +255,50 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸 美国高速中转4-1B
-  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:MTQ2MmMwMzUtM2E4ZS00ZDk1LTkzN2ItMzNhYjM0NDk=
-  port: 63324
+  name: 🇺🇸 美国1高速中转-1A
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:OTQ4OTNjNjgtYTAzOS00MjZhLWJkYmMtZTkzYWVlYTc=
+  port: 53334
   server: gsgs.hy2.one
   type: ss
   udp: true
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 02-1W
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  name: 🇺🇸 美国 03-1I
+  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d1d7004a-1e6f-4152-99ce-bffff090de59
+  name: 🇺🇸 美国 02-1Q
+  password: d1d7004a-1e6f-4152-99ce-bffff090de59
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  name: 🇺🇸 美国 04-2U
+  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
 - auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  name: 🇺🇸 美国 04-2O
+  name: 🇺🇸 美国 04-2T
   password: 64ce5486-ee97-43e9-87b9-07e98de15b04
   port: 44300
   server: us-04.worldfirst.eu.org
@@ -237,9 +306,219 @@ proxies:
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 01-1x
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
   name: 🇺🇸 美国 01-1M
-  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 B US
+  password: 17b83e99-9ec2-4705-a99e-ff91db1a5f23
+  port: 32881
+  server: usa2.iepl.cooc.icu
+  type: ss
+  udp: true
+- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  name: 🇺🇸 美国 04-1I
+  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  name: 🇺🇸 美国 03-2G
+  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 02-2F
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  name: 🇺🇸 美国 04-1T
+  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  name: 🇺🇸 美国 04-2L
+  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2
+  password: 246c7ae2-44fe-4945-bbe3-3ddf3c1867a2
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  name: 🇺🇸 美国 04-1V
+  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  name: 🇺🇸 美国 02-2G
+  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
+  name: 🇺🇸 美国 01-1J
+  password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  name: 🇺🇸 美国 01-1F
+  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
+  name: 🇺🇸 美国 01-3G
+  password: 606ce368-70b2-4b68-864d-8bcb1d308e17
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  name: 🇺🇸 美国 02-3A
+  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 03-2E
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  name: 🇺🇸 美国 01-2R
+  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  name: 🇺🇸 美国 03-2M
+  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
+  name: 🇺🇸 美国 02-1N
+  password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  name: 🇺🇸 美国 02-3E
+  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 858ce602-b5d1-4964-a921-0e87e6946add
+  name: 🇺🇸 美国 04-2H
+  password: 858ce602-b5d1-4964-a921-0e87e6946add
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  name: 🇺🇸 美国 02-1T
+  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 858ce602-b5d1-4964-a921-0e87e6946add
+  name: 🇺🇸 美国 01-2H
+  password: 858ce602-b5d1-4964-a921-0e87e6946add
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1B
+  password: 246c7ae2-44fe-4945-bbe3-3ddf3c1867a2
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  name: 🇺🇸 美国 01-2N
+  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
@@ -247,7 +526,317 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 04-1B
+  name: 🇺🇸 美国 02-2W
+  password: 493b846f-407e-424e-bd7e-1c711d872790
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 04-1K
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  name: 🇺🇸 美国 03-3F
+  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 03-2C
+  password: d284706b-f713-4f94-873e-b13eb3114aab
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  name: 🇺🇸 美国 03-1H
+  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  name: 🇺🇸 美国 01-2V
+  password: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  name: 🇺🇸 美国 03-1V
+  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 02-1x
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  name: 🇺🇸 美国 03-3H
+  password: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国08|X1|上海LL
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
+  port: 24038
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  name: 🇺🇸 美国 03-1x
+  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01丨江苏移动优化
+  password: c55c3306-8694-4d05-b6af-f776f77cabf5
+  port: 41775
+  server: 0e8383f2446d374c.cdn.jiashule.com
+  type: ss
+  udp: true
+- auth: 94df8591-1788-424b-b22b-014c321f81b0
+  name: 🇺🇸 美国 02-2P
+  password: 94df8591-1788-424b-b22b-014c321f81b0
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  name: 🇺🇸 美国 04-2M
+  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  name: 🇺🇸 美国 04-2S
+  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
+  name: 🇺🇸 美国 01-2Q
+  password: d695533d-e579-49cd-aeb2-4a6089954dbf
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  name: 🇺🇸 美国 01-3D
+  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5decad42-cd20-4861-be62-ce28e2180792
+  name: 🇺🇸 美国 01-1G
+  password: 5decad42-cd20-4861-be62-ce28e2180792
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
+  name: 🇺🇸 美国 01-2O
+  password: fc38fd12-2f14-442a-91f0-1967055e9c08
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  name: 🇺🇸 美国 01-1T
+  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  name: 🇺🇸 美国 02-2B
+  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1B
+  password: 246c7ae2-44fe-4945-bbe3-3ddf3c1867a2
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  name: 🇺🇸 美国 02-1P
+  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
+  name: 🇺🇸 美国 01-2T
+  password: 64ce5486-ee97-43e9-87b9-07e98de15b04
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 01-2E
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  name: 🇺🇸 美国 02-1F
+  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01丨山东移动优化
+  password: c55c3306-8694-4d05-b6af-f776f77cabf5
+  port: 44592
+  server: afa007d388783f3a.cdn.jiashule.com
+  type: ss
+  udp: true
+- auth: d284706b-f713-4f94-873e-b13eb3114aab
+  name: 🇺🇸 美国 02-2C
+  password: d284706b-f713-4f94-873e-b13eb3114aab
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  name: 🇺🇸 美国 02-2V
+  password: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  name: 🇺🇸 美国 01-2U
+  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 01-1O
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  name: 🇺🇸 美国 03-1S
+  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
+  name: 🇺🇸 美国 02-2Q
+  password: d695533d-e579-49cd-aeb2-4a6089954dbf
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 2|美国05|X1|XD中港1
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
+  port: 25021
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 493b846f-407e-424e-bd7e-1c711d872790
+  name: 🇺🇸 美国 04-2W
   password: 493b846f-407e-424e-bd7e-1c711d872790
   port: 44300
   server: us-04.worldfirst.eu.org
@@ -255,11 +844,1005 @@ proxies:
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
-  name: 🇺🇸 美国 01-1R
-  password: fc38fd12-2f14-442a-91f0-1967055e9c08
+- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  name: 🇺🇸 美国 04-1F
+  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 01-1K
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
   port: 44300
   server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 94df8591-1788-424b-b22b-014c321f81b0
+  name: 🇺🇸 美国 04-2P
+  password: 94df8591-1788-424b-b22b-014c321f81b0
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 04-1O
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
+  name: 🇺🇸 美国 02-3G
+  password: 606ce368-70b2-4b68-864d-8bcb1d308e17
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 03-3B
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  name: 🇺🇸 美国 03-2R
+  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  name: 🇺🇸 美国 04-3A
+  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d4391029-ee67-46bf-8905-6ba36f302620
+  name: 🇺🇸 美国 03-2J
+  password: d4391029-ee67-46bf-8905-6ba36f302620
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  name: 🇺🇸 美国 02-1V
+  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  name: 🇺🇸 美国 01-2A
+  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  name: 🇺🇸 美国 02-2N
+  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 01-2D
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  name: 🇺🇸 美国 02-2K
+  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  name: 🇺🇸 美国 02-3D
+  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  name: 🇺🇸 美国 01-3F
+  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6acbe27d-3b1e-4d74-a89a-d214065d2a53
+  name: 🇺🇸 北美-US-圣何塞-2-1A
+  password: 6acbe27d-3b1e-4d74-a89a-d214065d2a53
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
+  name: 🇺🇸 美国 02-1B
+  password: 37dcb76d-0bac-413b-a1d1-6e6156727159
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  name: 🇺🇸 美国 03-3A
+  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  name: 🇺🇸 美国 02-3F
+  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  name: 🇺🇸 美国 02-2M
+  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 C US
+  password: 17b83e99-9ec2-4705-a99e-ff91db1a5f23
+  port: 33881
+  server: usa3.iepl.cooc.icu
+  type: ss
+  udp: true
+- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  name: 🇺🇸 美国 02-2L
+  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  name: 🇺🇸 美国 04-3E
+  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  name: 🇺🇸 美国 03-3C
+  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 01-3B
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
+  name: 🇺🇸 美国 02-2T
+  password: 64ce5486-ee97-43e9-87b9-07e98de15b04
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 04-1C
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 858ce602-b5d1-4964-a921-0e87e6946add
+  name: 🇺🇸 美国 02-2H
+  password: 858ce602-b5d1-4964-a921-0e87e6946add
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港1
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
+  port: 25013
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  name: 🇺🇸 美国 04-2G
+  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 04-1Z
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  name: 🇺🇸 美国 03-2K
+  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  name: 🇺🇸 美国 03-2V
+  password: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  name: 🇺🇸 美国 04-2V
+  password: 1e21abfa-1ea1-4aff-8af2-8e6d1d1ff17e
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国1高速中转-1B
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:M2Y4MDE0NzQtOTNjZS00MjllLWJhOTMtY2FmYTlmZGE=
+  port: 53334
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- auth: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  name: 🇺🇸 美国 04-3H
+  password: 01907a82-a051-44ff-b1bc-38a2704c1d53
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国2高速中转-1A
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:OTQ4OTNjNjgtYTAzOS00MjZhLWJkYmMtZTkzYWVlYTc=
+  port: 53333
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  name: 🇺🇸 美国 04-2Y
+  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 03-2D
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  name: 🇺🇸 美国 01-2G
+  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
+  name: 🇺🇸 美国 04-2Q
+  password: d695533d-e579-49cd-aeb2-4a6089954dbf
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国高速中转4-1B
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:M2Y4MDE0NzQtOTNjZS00MjllLWJhOTMtY2FmYTlmZGE=
+  port: 63324
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 02-1C
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
+  name: 🇺🇸 美国 03-1D
+  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 04-2Z
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  name: 🇺🇸 美国 02-2I
+  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 01-1A
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 03-1C
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  name: 🇺🇸 美国 03-3D
+  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  name: 🇺🇸 美国 03-1M
+  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 01-1W
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
+  name: 🇺🇸 美国 01-1N
+  password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 94df8591-1788-424b-b22b-014c321f81b0
+  name: 🇺🇸 美国 03-2P
+  password: 94df8591-1788-424b-b22b-014c321f81b0
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
+  name: 🇺🇸 美国 03-1J
+  password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
+  name: 🇺🇸 美国 04-1B
+  password: 37dcb76d-0bac-413b-a1d1-6e6156727159
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国05|X1|上海LL
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
+  port: 24021
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 01-1E
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 02-2D
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
+  name: 🇺🇸 美国 04-1D
+  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 04-3B
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
+  name: 🇺🇸 美国 04-1N
+  password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 858ce602-b5d1-4964-a921-0e87e6946add
+  name: 🇺🇸 美国 03-2H
+  password: 858ce602-b5d1-4964-a921-0e87e6946add
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  name: 🇺🇸 美国 03-2B
+  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 03-1Z
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
+  name: 🇺🇸 美国 02-1Y
+  password: 4853b868-2e56-41fb-94fd-7f66951bb41b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  name: 🇺🇸 美国 03-2I
+  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  name: 🇺🇸 美国 04-1U
+  password: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
+  name: 🇺🇸 美国 04-1Y
+  password: 4853b868-2e56-41fb-94fd-7f66951bb41b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  name: 🇺🇸 美国 03-2N
+  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  name: 🇺🇸 美国 03-2A
+  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  name: 🇺🇸 美国 01-2K
+  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 03-1W
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 092955c6-f96d-4103-bce8-cda600c480fe
+  name: 🇺🇸 北美-US-圣何塞-2-1B
+  password: 092955c6-f96d-4103-bce8-cda600c480fe
+  port: 30001
+  server: oracle-amd-san-jose2.lanmaoyun.icu
+  skip-cert-verify: false
+  sni: san-jose2.nodes.lanmaoyun.icu
+  type: hysteria2
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 03-2F
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  name: 🇺🇸 美国 03-1O
+  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  name: 🇺🇸 美国 04-1H
+  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b27b70fa-5824-40cc-ae5f-311177754437
+  name: 🇺🇸 美国 02-1L
+  password: b27b70fa-5824-40cc-ae5f-311177754437
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1|美国L|X1|DF1
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
+  port: 59994
+  server: df-01.bestdong.xyz
+  type: ss
+  udp: true
+- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  name: 🇺🇸 美国 02-2A
+  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
+  name: 🇺🇸 美国 03-1B
+  password: 37dcb76d-0bac-413b-a1d1-6e6156727159
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  name: 🇺🇸 美国 04-1S
+  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  name: 🇺🇸 美国 03-2Y
+  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
+  name: 🇺🇸 美国 02-2O
+  password: fc38fd12-2f14-442a-91f0-1967055e9c08
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国高速中转4-1A
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:OTQ4OTNjNjgtYTAzOS00MjZhLWJkYmMtZTkzYWVlYTc=
+  port: 63324
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  name: 🇺🇸 美国 04-2B
+  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d1d7004a-1e6f-4152-99ce-bffff090de59
+  name: 🇺🇸 美国 01-1Q
+  password: d1d7004a-1e6f-4152-99ce-bffff090de59
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5decad42-cd20-4861-be62-ce28e2180792
+  name: 🇺🇸 美国 02-1G
+  password: 5decad42-cd20-4861-be62-ce28e2180792
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  name: 🇺🇸 美国 03-1P
+  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  name: 🇺🇸 美国 03-1F
+  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 493b846f-407e-424e-bd7e-1c711d872790
+  name: 🇺🇸 美国 01-2W
+  password: 493b846f-407e-424e-bd7e-1c711d872790
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  name: 🇺🇸 美国 03-2S
+  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  name: 🇺🇸 美国 01-1U
+  password: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  name: 🇺🇸 美国 01-1I
+  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 493b846f-407e-424e-bd7e-1c711d872790
+  name: 🇺🇸 美国 03-2W
+  password: 493b846f-407e-424e-bd7e-1c711d872790
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  name: 🇺🇸 美国 01-1R
+  password: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  name: 🇺🇸 美国 01-2x
+  password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  name: 🇺🇸 美国 01-1C
+  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
+  name: 🇺🇸 美国 04-1W
+  password: 540fd5d0-b686-403a-acd1-4203df1d7500
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  name: 🇺🇸 美国 04-2F
+  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  name: 🇺🇸 美国 04-3F
+  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 A US
+  password: 17b83e99-9ec2-4705-a99e-ff91db1a5f23
+  port: 31881
+  server: usa1.iepl.cooc.icu
+  type: ss
+  udp: true
+- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  name: 🇺🇸 美国 02-1H
+  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国-2-1B
+  network: tcp
+  port: 43332
+  reality-opts:
+    public-key: X0trg79L3teC4E6tlpzK74e38xpzkYIKAO2bvcsY6ng
+    short-id: 07288de2
+  server: us02.hy-2.top
+  servername: www.python.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f801474-93ce-429e-ba93-cafa9fdaf252
+- auth: 5decad42-cd20-4861-be62-ce28e2180792
+  name: 🇺🇸 美国 04-1G
+  password: 5decad42-cd20-4861-be62-ce28e2180792
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  name: 🇺🇸 美国 02-2Y
+  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b27b70fa-5824-40cc-ae5f-311177754437
+  name: 🇺🇸 美国 04-1L
+  password: b27b70fa-5824-40cc-ae5f-311177754437
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  name: 🇺🇸 美国 01-3A
+  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  name: 🇺🇸 美国 03-1R
+  password: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  name: 🇺🇸 美国 02-1R
+  password: 4eb2a5cc-974e-48cf-94c8-1a27e35bc405
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  name: 🇺🇸 美国 03-2U
+  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
+  name: 🇺🇸 美国 03-2O
+  password: fc38fd12-2f14-442a-91f0-1967055e9c08
+  port: 44300
+  server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
@@ -278,10 +1861,263 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 2233191a-42e5-44a0-8cb5-f34d6339a758
+  uuid: 94893c68-a039-426a-bdbc-e93aeea7435b
+- auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  name: 🇺🇸 美国 02-2x
+  password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: 🇺🇸 美国2高速中转-1B
+  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:M2Y4MDE0NzQtOTNjZS00MjllLWJhOTMtY2FmYTlmZGE=
+  port: 53333
+  server: gsgs.hy2.one
+  type: ss
+  udp: true
+- auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
+  name: 🇺🇸 美国 03-2T
+  password: 64ce5486-ee97-43e9-87b9-07e98de15b04
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  name: 🇺🇸 美国 04-2A
+  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  name: 🇺🇸 美国 02-1I
+  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b27b70fa-5824-40cc-ae5f-311177754437
+  name: 🇺🇸 美国 03-1L
+  password: b27b70fa-5824-40cc-ae5f-311177754437
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
+  name: 🇺🇸 美国 04-2O
+  password: fc38fd12-2f14-442a-91f0-1967055e9c08
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 03-1A
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d1d7004a-1e6f-4152-99ce-bffff090de59
+  name: 🇺🇸 美国 03-1Q
+  password: d1d7004a-1e6f-4152-99ce-bffff090de59
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  name: 🇺🇸 美国 02-3C
+  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 03-2Z
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  name: 🇺🇸 美国 01-2I
+  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 02-1E
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  name: 🇺🇸 美国 04-3D
+  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 04-2E
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  name: 🇺🇸 美国 02-2S
+  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国02-1A
+  password: ecaa30d4-a97b-4edd-86a8-2cdcd74231f9
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  name: 🇺🇸 美国 01-2Y
+  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 2|美国06|X1|上海LL
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
+  port: 24022
+  server: ll-sh1.bestdong.xyz
+  type: ss
+  udp: true
+- auth: b27b70fa-5824-40cc-ae5f-311177754437
+  name: 🇺🇸 美国 01-1L
+  password: b27b70fa-5824-40cc-ae5f-311177754437
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d4391029-ee67-46bf-8905-6ba36f302620
+  name: 🇺🇸 美国 01-2J
+  password: d4391029-ee67-46bf-8905-6ba36f302620
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 07c490cb-65e7-476e-8643-59a3571361e8
+  name: 🇺🇸 美国 02-1A
+  password: 07c490cb-65e7-476e-8643-59a3571361e8
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  name: 🇺🇸 美国 02-2U
+  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  name: 🇺🇸 美国 03-1E
+  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  name: 🇺🇸 美国 01-1V
+  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  name: 🇺🇸 美国 04-1P
+  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
 - auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 02-2A
+  name: 🇺🇸 美国 02-1O
   password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  name: 🇺🇸 美国 03-2x
+  password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
+  name: 🇺🇸 美国 02-1J
+  password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
   port: 44300
   server: us-02.worldfirst.eu.org
   skip-cert-verify: true
@@ -290,23 +2126,14 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 美国03
-  password: 9d5b198a-52d4-422e-860c-425964af4e11
+  password: 246c7ae2-44fe-4945-bbe3-3ddf3c1867a2
   port: 42414
   server: gd.xueyejiasu.com
   type: ss
   udp: true
-- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  name: 🇺🇸 美国 04-3A
-  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
-  name: 🇺🇸 美国 02-1Y
-  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 02-1Z
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
   port: 44300
   server: us-02.worldfirst.eu.org
   skip-cert-verify: true
@@ -314,194 +2141,60 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  name: 🇺🇸 美国 02-3E
-  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  name: 🇺🇸 美国 02-2D
-  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 02-2P
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  name: 🇺🇸 美国 04-1G
-  password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  name: 🇺🇸 美国 04-1C
-  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b27b70fa-5824-40cc-ae5f-311177754437
-  name: 🇺🇸 美国 03-2F
-  password: b27b70fa-5824-40cc-ae5f-311177754437
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  name: 🇺🇸 美国 02-1H
-  password: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
-  name: 🇺🇸 美国 04-1R
-  password: fc38fd12-2f14-442a-91f0-1967055e9c08
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 01-2P
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
+  name: 🇭🇰 1|美国01|X1|XD中港HKT
+  password: 1e26201f-2c64-4ece-8bb9-4fea13d064ac
   port: 41013
   server: xd-zg-hkt1.bestdong.xyz
   type: ss
   udp: true
 - auth: 94df8591-1788-424b-b22b-014c321f81b0
-  name: 🇺🇸 美国 04-3C
+  name: 🇺🇸 美国 01-2P
   password: 94df8591-1788-424b-b22b-014c321f81b0
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
-  name: 🇺🇸 美国 01-1F
-  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  name: 🇺🇸 美国 04-2B
-  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  name: 🇺🇸 美国 02-1Z
+  name: 🇺🇸 美国 01-1B
   password: 37dcb76d-0bac-413b-a1d1-6e6156727159
   port: 44300
-  server: us-02.worldfirst.eu.org
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  name: 🇺🇸 美国 04-2N
-  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
+- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
+  name: 🇺🇸 美国 01-2M
+  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
   port: 44300
-  server: us-04.worldfirst.eu.org
+  server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
-  name: 🇺🇸 美国 03-2M
-  password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
+- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
+  name: 🇺🇸 美国 03-1T
+  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 04-1x
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
+- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
+  name: 🇺🇸 美国 04-2D
+  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
   port: 44300
   server: us-04.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 01-2Q
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
+- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  name: 🇺🇸 美国 01-3E
+  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
@@ -509,7 +2202,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  name: 🇺🇸 美国 01-2G
+  name: 🇺🇸 美国 01-1Y
   password: 4853b868-2e56-41fb-94fd-7f66951bb41b
   port: 44300
   server: us-01.worldfirst.eu.org
@@ -517,2091 +2210,448 @@ proxies:
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  name: 🇺🇸 美国 03-1P
-  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  name: 🇺🇸 美国 01-1Z
-  password: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 04-1Q
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
-  name: 🇺🇸 美国 02-2I
-  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  name: 🇺🇸 美国 03-1S
-  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  name: 🇺🇸 美国 02-1P
-  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - auth: d4391029-ee67-46bf-8905-6ba36f302620
-  name: 🇺🇸 美国 03-1E
+  name: 🇺🇸 美国 04-2J
   password: d4391029-ee67-46bf-8905-6ba36f302620
   port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  name: 🇺🇸 美国 04-2R
-  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  port: 44300
   server: us-04.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸 美国1高速中转-1A
-  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:MjIzMzE5MWEtNDJlNS00NGEwLThjYjUtZjM0ZDYzMzk=
-  port: 53334
-  server: gsgs.hy2.one
-  type: ss
-  udp: true
-- auth: 5decad42-cd20-4861-be62-ce28e2180792
-  name: 🇺🇸 美国 02-1U
-  password: 5decad42-cd20-4861-be62-ce28e2180792
+- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
+  name: 🇺🇸 美国 02-2E
+  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
   port: 44300
   server: us-02.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  name: 🇺🇸 美国 01-1W
-  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
+- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  name: 🇺🇸 美国 04-2K
+  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
+  name: 🇺🇸 美国 01-2S
+  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
   port: 44300
   server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
-  name: 🇺🇸 美国 03-2W
-  password: c28f408c-dbbe-4643-a530-1febad0e8ed2
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
-  port: 59994
-  server: df-01.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
-  name: 🇺🇸 美国 04-1D
-  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  name: 🇺🇸 美国 02-2O
-  password: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  name: 🇺🇸 美国 02-2U
-  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  name: 🇺🇸 美国 02-1C
-  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 07c490cb-65e7-476e-8643-59a3571361e8
-  name: 🇺🇸 美国 02-1V
-  password: 07c490cb-65e7-476e-8643-59a3571361e8
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸 美国1高速中转-1B
-  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:MTQ2MmMwMzUtM2E4ZS00ZDk1LTkzN2ItMzNhYjM0NDk=
-  port: 53334
-  server: gsgs.hy2.one
-  type: ss
-  udp: true
-- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  name: 🇺🇸 美国 02-2B
-  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 07c490cb-65e7-476e-8643-59a3571361e8
-  name: 🇺🇸 美国 03-1V
-  password: 07c490cb-65e7-476e-8643-59a3571361e8
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5decad42-cd20-4861-be62-ce28e2180792
-  name: 🇺🇸 美国 03-1U
-  password: 5decad42-cd20-4861-be62-ce28e2180792
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  name: 🇺🇸 美国 03-2B
-  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  port: 44300
-  server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
 - auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  name: 🇺🇸 美国 03-2T
+  name: 🇺🇸 美国 04-1J
   password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
-  name: 🇺🇸 美国 04-2I
-  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
   port: 44300
   server: us-04.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
-  name: 🇺🇸 美国 01-2W
-  password: c28f408c-dbbe-4643-a530-1febad0e8ed2
+- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
+  name: 🇺🇸 美国 01-1Z
+  password: f828ad92-7305-4cce-ad1d-61983a0177a3
   port: 44300
   server: us-01.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
-  name: 🇺🇸 美国 02-2W
-  password: c28f408c-dbbe-4643-a530-1febad0e8ed2
+- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  name: 🇺🇸 美国 01-1H
+  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
+  name: 🇺🇸 美国 02-3B
+  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
   port: 44300
   server: us-02.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
-  name: 🇺🇸 美国 04-1T
-  password: d695533d-e579-49cd-aeb2-4a6089954dbf
+- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
+  name: 🇺🇸 美国 02-1K
+  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
   port: 44300
-  server: us-04.worldfirst.eu.org
+  server: us-02.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
-- auth: 858ce602-b5d1-4964-a921-0e87e6946add
-  name: 🇺🇸 美国 04-3B
-  password: 858ce602-b5d1-4964-a921-0e87e6946add
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
-  name: 🇺🇸 美国 03-1Y
-  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
+- auth: 5decad42-cd20-4861-be62-ce28e2180792
+  name: 🇺🇸 美国 03-1G
+  password: 5decad42-cd20-4861-be62-ce28e2180792
   port: 44300
   server: us-03.worldfirst.eu.org
   skip-cert-verify: true
   sni: us-01.worldfirst.eu.org
   type: hysteria2
   udp: true
+- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  name: 🇺🇸 美国 03-2L
+  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  name: 🇺🇸 美国 04-2R
+  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  name: 🇺🇸 美国 03-3E
+  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: d4391029-ee67-46bf-8905-6ba36f302620
+  name: 🇺🇸 美国 02-2J
+  password: d4391029-ee67-46bf-8905-6ba36f302620
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  name: 🇺🇸 美国 04-2I
+  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 02-2Z
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  name: 🇺🇸 美国 01-2B
+  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  name: 🇺🇸 美国 01-2Z
+  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
+  port: 44300
+  server: us-01.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
+  name: 🇺🇸 美国 03-3G
+  password: 606ce368-70b2-4b68-864d-8bcb1d308e17
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  name: 🇺🇸 美国 04-3C
+  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
+  port: 44300
+  server: us-04.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  name: 🇺🇸 美国 02-1S
+  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  name: 🇺🇸 美国 03-1U
+  password: c28f408c-dbbe-4643-a530-1febad0e8ed2
+  port: 44300
+  server: us-03.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
+- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  name: 🇺🇸 美国 02-2R
+  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
+  port: 44300
+  server: us-02.worldfirst.eu.org
+  skip-cert-verify: true
+  sni: us-01.worldfirst.eu.org
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1E
-  password: 9d5b198a-52d4-422e-860c-425964af4e11
+  name: 🇺🇸 美国03-1B
+  password: a4eb7691-c7cb-4c6f-837c-d243787306cc
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF06-1A
+  password: 78982ecb-56fb-4a2e-9a72-e14d7b8d9e81
+  port: 15731
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国03-1A
+  password: 4447e523-7db0-4424-a932-fdf9ab1925c3
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1D
+  password: a4eb7691-c7cb-4c6f-837c-d243787306cc
   port: 56011
   server: gd.xueyejiasu.com
   type: ss
   udp: true
-- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  name: 🇺🇸 美国 01-2R
-  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 07c490cb-65e7-476e-8643-59a3571361e8
-  name: 🇺🇸 美国 01-1V
-  password: 07c490cb-65e7-476e-8643-59a3571361e8
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
-  port: 24038
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 03-2C
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 04-1I
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  name: 🇺🇸 美国 02-2T
-  password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  name: 🇺🇸 美国 03-2L
-  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 01-2A
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
-  name: 🇺🇸 美国 01-1Y
-  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  name: 🇺🇸 美国 03-2K
-  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 03-1I
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  name: 🇺🇸 美国 04-1Z
-  password: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  name: 🇺🇸 美国 04-2T
-  password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 02-1J
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 04-2C
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 03-2A
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  name: 🇺🇸 美国 01-1A
-  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  name: 🇺🇸 美国 02-2V
-  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  name: 🇺🇸 美国 04-3E
-  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  name: 🇺🇸 美国 03-2E
-  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 02-1N
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 858ce602-b5d1-4964-a921-0e87e6946add
-  name: 🇺🇸 美国 02-3B
-  password: 858ce602-b5d1-4964-a921-0e87e6946add
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  name: 🇺🇸 美国 02-2S
-  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 02-1Q
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 02-1x
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
-  name: 🇺🇸 美国 01-1T
-  password: d695533d-e579-49cd-aeb2-4a6089954dbf
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  name: 🇺🇸 美国 02-2K
-  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1E
-  password: 9d5b198a-52d4-422e-860c-425964af4e11
-  port: 58159
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- auth: d1d7004a-1e6f-4152-99ce-bffff090de59
-  name: 🇺🇸 美国 02-1L
-  password: d1d7004a-1e6f-4152-99ce-bffff090de59
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  name: 🇺🇸 美国 01-2V
-  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  name: 🇺🇸 美国 01-2J
-  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d4391029-ee67-46bf-8905-6ba36f302620
-  name: 🇺🇸 美国 04-1E
-  password: d4391029-ee67-46bf-8905-6ba36f302620
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  name: 🇺🇸 美国 02-1K
-  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  name: 🇺🇸 美国 03-1O
-  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5decad42-cd20-4861-be62-ce28e2180792
-  name: 🇺🇸 美国 04-1U
-  password: 5decad42-cd20-4861-be62-ce28e2180792
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  name: 🇺🇸 美国 03-2V
-  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  name: 🇺🇸 美国 04-2A
-  password: de3c6567-1177-4b60-b1b0-89ea8b406c1b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港HKT-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
-  port: 41013
-  server: xd-zg-hkt1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  name: 🇺🇸 美国 03-2J
-  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  name: 🇺🇸 美国 01-1K
-  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 858ce602-b5d1-4964-a921-0e87e6946add
-  name: 🇺🇸 美国 01-3B
-  password: 858ce602-b5d1-4964-a921-0e87e6946add
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 01-2H
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  name: 🇺🇸 美国 04-2U
-  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  name: 🇺🇸 美国 02-2R
-  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  name: 🇺🇸 美国 01-1P
-  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2
-  password: 9d5b198a-52d4-422e-860c-425964af4e11
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
-  name: 🇺🇸 美国 04-1F
-  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: fc38fd12-2f14-442a-91f0-1967055e9c08
-  name: 🇺🇸 美国 03-1R
-  password: fc38fd12-2f14-442a-91f0-1967055e9c08
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  name: 🇺🇸 美国 02-2Z
-  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01丨江苏移动优化
-  password: 0cd89c34-d4d6-4ced-b3ee-b7f2d1245b45
-  port: 41775
-  server: 0e8383f2446d374c.cdn.jiashule.com
-  type: ss
-  udp: true
-- auth: a817c184-e506-4eda-9e8a-838ad78a329a
-  name: 🇺🇸 北美-US-圣何塞-2-1B
-  password: a817c184-e506-4eda-9e8a-838ad78a329a
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
-  name: 🇺🇸 美国 02-1T
-  password: d695533d-e579-49cd-aeb2-4a6089954dbf
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  name: 🇺🇸 美国 01-1C
-  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  name: 🇺🇸 美国 03-2Z
-  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
-  name: 🇺🇸 美国 02-2M
-  password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国06|X1|上海LL-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
-  port: 24022
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
-  port: 25021
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  name: 🇺🇸 美国 01-1S
-  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  name: 🇺🇸 美国 01-1O
-  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  name: 🇺🇸 美国 03-2D
-  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 01-1Q
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 04-2Q
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 04-2P
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: c1bdce01-d698-41e1-af4c-108fdcb5fe31
-  name: 🇺🇸 美国 03-2I
-  password: c1bdce01-d698-41e1-af4c-108fdcb5fe31
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d4391029-ee67-46bf-8905-6ba36f302620
-  name: 🇺🇸 美国 01-1E
-  password: d4391029-ee67-46bf-8905-6ba36f302620
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  name: 🇺🇸 美国 02-2N
-  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 02-2Y
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 2|美国06|X1|上海LL-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
   port: 24022
   server: ll-sh1.bestdong.xyz
   type: ss
-  udp: true
-- auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  name: 🇺🇸 美国 04-1H
-  password: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  name: 🇺🇸 美国 02-2G
-  password: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  name: 🇺🇸 美国 03-2x
-  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  name: 🇺🇸 美国 03-1H
-  password: 606ce368-70b2-4b68-864d-8bcb1d308e17
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
-  name: 🇺🇸 美国 04-1M
-  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  name: 🇺🇸 美国 02-2L
-  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  name: 🇺🇸 美国 01-3D
-  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  name: 🇺🇸 美国 03-1A
-  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  name: 🇺🇸 美国 04-2G
-  password: 4853b868-2e56-41fb-94fd-7f66951bb41b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸 2|美国05|X1|上海LL-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
   port: 24021
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
-- auth: d695533d-e579-49cd-aeb2-4a6089954dbf
-  name: 🇺🇸 美国 03-1T
-  password: d695533d-e579-49cd-aeb2-4a6089954dbf
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: d4391029-ee67-46bf-8905-6ba36f302620
-  name: 🇺🇸 美国 02-1E
-  password: d4391029-ee67-46bf-8905-6ba36f302620
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港1-1A
-  password: c5d98d20-5348-4907-933d-0628bb6403df
-  port: 25013
-  server: xd-zg1.bestdong.xyz
-  type: ss
-  udp: true
-- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  name: 🇺🇸 美国 02-1A
-  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  name: 🇺🇸 美国 04-3D
-  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  name: 🇺🇸 美国 03-1Z
-  password: 37dcb76d-0bac-413b-a1d1-6e6156727159
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 04-2H
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  name: 🇺🇸 美国 04-2Z
-  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
-  name: 🇺🇸 美国 02-1M
-  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  name: 🇺🇸 美国 03-3E
-  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 2|美国05|X1|XD中港1-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
-  port: 25021
-  server: xd-zg1.bestdong.xyz
+  name: 🇺🇸 2|美国06|X1|上海LL-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
+  port: 24022
+  server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  name: 🇺🇸 美国 03-2R
-  password: 66c03e8c-80b6-441f-b198-71d3feee5ffe
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  name: 🇺🇸 美国 04-1S
-  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  name: 🇺🇸 美国 04-2E
-  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 858ce602-b5d1-4964-a921-0e87e6946add
-  name: 🇺🇸 美国 03-3B
-  password: 858ce602-b5d1-4964-a921-0e87e6946add
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸 美国2高速中转-1B
-  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:MTQ2MmMwMzUtM2E4ZS00ZDk1LTkzN2ItMzNhYjM0NDk=
-  port: 53333
-  server: gsgs.hy2.one
-  type: ss
-  udp: true
-- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  name: 🇺🇸 美国 03-2U
-  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  name: 🇺🇸 美国 01-2D
-  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  name: 🇺🇸 美国 02-3A
-  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  name: 🇺🇸 美国 02-2E
-  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15532
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  name: 🇺🇸 美国 04-2S
-  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  name: 🇺🇸 美国 01-1N
-  password: 2e27a588-5505-4eaa-8456-b312dc3dff3b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  name: 🇺🇸 美国 03-3D
-  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  name: 🇺🇸 美国 01-2O
-  password: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  name: 🇺🇸 美国 03-2N
-  password: 5c7fea3a-d014-4709-a96d-5bbfa8d9a6c2
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  name: 🇺🇸 美国 01-2T
-  password: 9361d808-2644-4eb5-b4ed-402f7f05c59d
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  name: 🇺🇸 美国 01-3A
-  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b081588f-0676-42a7-8c5d-5d6593a5a1df
-  name: 🇺🇸 美国 04-1Y
-  password: b081588f-0676-42a7-8c5d-5d6593a5a1df
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b27b70fa-5824-40cc-ae5f-311177754437
-  name: 🇺🇸 美国 02-2F
-  password: b27b70fa-5824-40cc-ae5f-311177754437
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15628
+  name: 🇺🇸 美国CF06-1B
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
+  port: 15731
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 1|美国L|X1|DF1-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
+  name: 🇺🇸 1|美国L|X1|DF1-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
   port: 59994
   server: df-01.bestdong.xyz
   type: ss
   udp: true
-- auth: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  name: 🇺🇸 美国 04-2V
-  password: b86dec27-95bb-4933-9e3c-eb7663ebfeb7
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  name: 🇺🇸 美国 01-3E
-  password: 57c3e2b8-a4cd-473c-9331-f49bd3eab417
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  name: 🇺🇸 美国 01-1G
-  password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国06|X1|上海LL-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
-  port: 24022
-  server: ll-sh1.bestdong.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF05-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15729
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 02-1B
-  password: 493b846f-407e-424e-bd7e-1c711d872790
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  name: 🇺🇸 美国 04-1O
-  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  name: 🇺🇸 美国 04-1P
-  password: 650b3e9a-d2a4-4879-9493-75052627cbcd
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  name: 🇺🇸 美国 03-2O
-  password: 64ce5486-ee97-43e9-87b9-07e98de15b04
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  name: 🇺🇸 美国 03-3A
-  password: 4196da50-2fcf-4d8f-9454-622139fc0c78
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  name: 🇺🇸 美国 01-2E
-  password: 9496b71c-f52c-47d4-91d2-b5e3d850051c
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  name: 🇺🇸 美国 02-1S
-  password: b1085216-e9fb-46dc-8ed9-fbdf28b1a851
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
-  port: 15731
+  name: 🇺🇸 美国CF07-1B
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
+  port: 15733
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港1-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
-  port: 25013
-  server: xd-zg1.bestdong.xyz
+  name: 🇺🇸 美国 纽约2-1A
+  password: 4447e523-7db0-4424-a932-fdf9ab1925c3
+  port: 20016
+  server: gy.666666222.shop
   type: ss
   udp: true
-- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  name: 🇺🇸 美国 04-2x
-  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 01-2Y
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 04-2Y
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  name: 🇺🇸 美国 04-2J
-  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 01-1x
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 03-1J
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
-  name: 🇺🇸 美国 03-1D
-  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4ee4c61f-bf7c-4019-9ac4-f93f9c95deb3
-  name: 🇺🇸 北美-US-圣何塞-2-1A
-  password: 4ee4c61f-bf7c-4019-9ac4-f93f9c95deb3
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- auth: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  name: 🇺🇸 美国 01-2U
-  password: 04c9d560-90d0-48a4-b06a-13b653d9fae7
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 01-1J
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  name: 🇺🇸 美国 03-1C
-  password: d81394e5-782c-4a13-923c-9c2ebe8fc9da
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  name: 🇺🇸 美国 02-3D
-  password: 84d7253b-3698-450d-9f12-2eb42bc9adfc
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  name: 🇺🇸 美国 04-2K
-  password: 3b136e94-9382-42a7-985b-2f93ce13f2f3
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  name: 🇺🇸 美国 01-2x
-  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 493b846f-407e-424e-bd7e-1c711d872790
-  name: 🇺🇸 美国 03-1B
-  password: 493b846f-407e-424e-bd7e-1c711d872790
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国08|X1|上海LL-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
+  name: 🇺🇸 2|美国08|X1|上海LL-1A
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
   port: 24038
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸 美国2高速中转-1A
-  password: OGYyMGNmOTA4MjJlMTE3NmFlNTMzZDdmZDVlZWQwYzE=:MjIzMzE5MWEtNDJlNS00NGEwLThjYjUtZjM0ZDYzMzk=
-  port: 53333
-  server: gsgs.hy2.one
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港HKT-1A
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
+  port: 41013
+  server: xd-zg-hkt1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01
-  password: 9d5b198a-52d4-422e-860c-425964af4e11
+  name: 🇭🇰 1|美国01|X1|XD中港1-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
+  port: 25013
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约2-1B
+  password: a4eb7691-c7cb-4c6f-837c-d243787306cc
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 1|美国01|X1|XD中港1-1A
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
+  port: 25013
+  server: xd-zg1.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF07-1A
+  password: 78982ecb-56fb-4a2e-9a72-e14d7b8d9e81
+  port: 15733
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1B
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1A
+  password: 78982ecb-56fb-4a2e-9a72-e14d7b8d9e81
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1B
+  password: a4eb7691-c7cb-4c6f-837c-d243787306cc
   port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 C US
-  password: 3261ed09-9560-4b55-9549-c43958d55021
-  port: 33881
-  server: usa3.iepl.cooc.icu
+  name: 🇺🇸 美国CF05-1B
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
+  port: 15729
+  server: gdcub.yunnode.win
   type: ss
   udp: true
-- auth: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
-  name: 🇺🇸 美国 04-2M
-  password: 5cbe5c69-ec6f-438b-b216-492cdd8369f2
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF05-1A
+  password: 78982ecb-56fb-4a2e-9a72-e14d7b8d9e81
+  port: 15729
+  server: gdcub.yunnode.win
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰 1|美国01|X1|XD中港1-1B
-  password: 4e01da34-0cc7-4fb0-bdcd-53a888838619
-  port: 25013
+  name: 🇺🇸 美国02-1C
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
+  port: 15628
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 1|美国L|X1|DF1-1A
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
+  port: 59994
+  server: df-01.bestdong.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国04-1A
+  password: 78982ecb-56fb-4a2e-9a72-e14d7b8d9e81
+  port: 15728
+  server: gdcub.yunnode.win
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 纽约01-1A
+  password: 4447e523-7db0-4424-a932-fdf9ab1925c3
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 2|美国05|X1|XD中港1-1A
+  password: 21e45dca-1a5c-4d23-acb7-38c758f28a69
+  port: 25021
   server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
-- auth: b27b70fa-5824-40cc-ae5f-311177754437
-  name: 🇺🇸 美国 01-2F
-  password: b27b70fa-5824-40cc-ae5f-311177754437
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 02-2H
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  name: 🇺🇸 美国 01-2B
-  password: 1a6d63c2-1ee5-41ea-be0d-678027c1656d
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 01-1I
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国CF08-1B
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
+  port: 15735
+  server: gdcub.yunnode.win
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
+  name: 🇺🇸 美国02-1D
+  password: a4eb7691-c7cb-4c6f-837c-d243787306cc
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国01-1C
+  password: ffb41c50-5033-4097-b609-c3d4eda8c668
   port: 15532
   server: gdcub.yunnode.win
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  name: 🇺🇸 美国 02-2x
-  password: 754a2bb7-21a3-488c-9173-fd7fdfc72035
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  name: 🇺🇸 美国 02-1O
-  password: 0ee31411-959a-45e8-abd2-0f33ba37bc1c
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  name: 🇺🇸 美国 04-1J
-  password: 4bb0fc0f-65e9-4d07-b88c-183be60a68ed
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 94df8591-1788-424b-b22b-014c321f81b0
-  name: 🇺🇸 美国 02-3C
-  password: 94df8591-1788-424b-b22b-014c321f81b0
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 01-2C
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国02-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15628
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  name: 🇺🇸 美国 02-1W
-  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  name: 🇺🇸 美国 02-1G
-  password: 5630fb2f-ec6a-4194-ba19-1c0ebdc82236
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  name: 🇺🇸 美国 03-1W
-  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 02-2Q
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF06-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15731
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  name: 🇺🇸 美国 04-2L
-  password: 84ed5957-18f9-4502-9789-c8aeb9bdfe0b
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1B
-  password: c14614a9-9b31-4022-a164-ff04a367733e
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1A
-  password: d0dd09ed-8473-445d-b1cd-8178efefd5af
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: 07c490cb-65e7-476e-8643-59a3571361e8
-  name: 🇺🇸 美国 04-1V
-  password: 07c490cb-65e7-476e-8643-59a3571361e8
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  name: 🇺🇸 美国 03-2S
-  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF08-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15735
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: d1d7004a-1e6f-4152-99ce-bffff090de59
-  name: 🇺🇸 美国 01-1L
-  password: d1d7004a-1e6f-4152-99ce-bffff090de59
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 540fd5d0-b686-403a-acd1-4203df1d7500
-  name: 🇺🇸 美国 03-2H
-  password: 540fd5d0-b686-403a-acd1-4203df1d7500
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  name: 🇺🇸 美国 04-1W
-  password: 840eac43-2f67-4b74-9d4f-7eb81d7498f6
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 2|美国05|X1|上海LL-1C
-  password: 158524fe-835a-4ff3-a03e-afa5f0041f21
+  name: 🇺🇸 2|美国05|X1|上海LL-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
   port: 24021
   server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国-2-1B
-  network: tcp
-  port: 43332
-  reality-opts:
-    public-key: X0trg79L3teC4E6tlpzK74e38xpzkYIKAO2bvcsY6ng
-    short-id: 07288de2
-  server: us02.hy-2.top
-  servername: www.python.org
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1462c035-3a8e-4d95-937b-33ab3449793d
-- auth: 5decad42-cd20-4861-be62-ce28e2180792
-  name: 🇺🇸 美国 01-1U
-  password: 5decad42-cd20-4861-be62-ce28e2180792
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  name: 🇺🇸 美国 02-1I
-  password: 97ffad1a-da4e-4453-a956-2d840bc3115e
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  name: 🇺🇸 美国 03-1x
-  password: 321226fc-3c79-45ae-b5b7-d30d948556a1
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  name: 🇺🇸 美国 02-2C
-  password: 09da1628-8b0e-4c7d-ac88-1326ae6d215c
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国04-1D
-  password: 17f33722-b800-4465-b50a-88aed75c76f6
-  port: 15728
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  name: 🇺🇸 美国 04-1A
-  password: e96b2126-38ea-4dcc-be95-4c57b9f03060
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国CF07-1C
-  password: 806bc050-0922-458b-b052-0c771fc94e75
-  port: 15733
-  server: gdcub.yunnode.win
-  type: ss
-  udp: true
-- auth: d1d7004a-1e6f-4152-99ce-bffff090de59
-  name: 🇺🇸 美国 03-1L
-  password: d1d7004a-1e6f-4152-99ce-bffff090de59
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
-  name: 🇺🇸 美国 01-1D
-  password: 4eb603de-f8f2-405c-9d17-77fc4c7921b0
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  name: 🇺🇸 美国 03-1Q
-  password: 2ffb2010-3abf-49bb-9a60-e2cfbfc1d71e
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  name: 🇺🇸 美国 03-2Y
-  password: 6dca8fe0-c812-4f5e-bfdf-34575c9b9098
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  name: 🇺🇸 美国 04-2D
-  password: 9eb4e0e5-1177-4b85-96e2-f0dcdc234b91
-  port: 44300
-  server: us-04.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国01丨山东移动优化
-  password: 0cd89c34-d4d6-4ced-b3ee-b7f2d1245b45
-  port: 44592
-  server: afa007d388783f3a.cdn.jiashule.com
-  type: ss
-  udp: true
-- auth: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  name: 🇺🇸 美国 01-2Z
-  password: a938baac-5c10-4d5d-87fe-c1d68f3ded4b
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: d284706b-f713-4f94-873e-b13eb3114aab
-  name: 🇺🇸 美国 03-2P
-  password: d284706b-f713-4f94-873e-b13eb3114aab
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  name: 🇺🇸 美国 03-1K
-  password: dee9d3c3-58e7-4e10-a352-958f6eba5366
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 864d563a-d842-4863-88e5-701dbfc5c1b4
-  name: 🇺🇸 美国 02-1F
-  password: 864d563a-d842-4863-88e5-701dbfc5c1b4
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: f828ad92-7305-4cce-ad1d-61983a0177a3
-  name: 🇺🇸 美国 03-2Q
-  password: f828ad92-7305-4cce-ad1d-61983a0177a3
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  name: 🇺🇸 美国 02-2J
-  password: 6d15f196-9524-4312-ad09-1c8943f4b97b
-  port: 44300
-  server: us-02.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 B US
-  password: 3261ed09-9560-4b55-9549-c43958d55021
-  port: 32881
-  server: usa2.iepl.cooc.icu
-  type: ss
-  udp: true
-- auth: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  name: 🇺🇸 美国 01-2S
-  password: 661a0364-bc70-498c-b0f0-2e7d866f00df
-  port: 44300
-  server: us-01.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- auth: bc2452f3-39c6-4d59-9288-e3488ab8951d
-  name: 🇺🇸 美国 03-1M
-  password: bc2452f3-39c6-4d59-9288-e3488ab8951d
-  port: 44300
-  server: us-03.worldfirst.eu.org
-  skip-cert-verify: true
-  sni: us-01.worldfirst.eu.org
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1A
-  password: 9082eaae-df1c-4306-a569-f1c126b70a65
-  port: 42414
-  server: gd.xueyejiasu.com
-  type: ss
-  udp: true
-- auth: 16c6f514-8eda-4ce0-a8a9-845b3fb7445b
-  name: 🇺🇸 北美-US-圣何塞-2
-  password: 16c6f514-8eda-4ce0-a8a9-845b3fb7445b
-  port: 30001
-  server: oracle-amd-san-jose2.lanmaoyun.icu
-  skip-cert-verify: false
-  sni: san-jose2.nodes.lanmaoyun.icu
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1A
-  password: 9082eaae-df1c-4306-a569-f1c126b70a65
-  port: 20013
-  server: gy.666666222.shop
+  name: 🇭🇰 2|美国05|X1|XD中港1-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
+  port: 25021
+  server: xd-zg1.bestdong.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1B
-  password: 8bc4021d-4349-47ed-90e8-2ddea737c454
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约01-1B
-  password: 8bc4021d-4349-47ed-90e8-2ddea737c454
-  port: 20013
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国 纽约2-1A
-  password: 9082eaae-df1c-4306-a569-f1c126b70a65
-  port: 20016
-  server: gy.666666222.shop
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 美国03-1B
-  password: 8bc4021d-4349-47ed-90e8-2ddea737c454
-  port: 42414
-  server: gd.xueyejiasu.com
+  name: 🇺🇸 2|美国08|X1|上海LL-1B
+  password: 1d4c87a7-5002-4bd8-bcdb-c4c4fe6eaeed
+  port: 24038
+  server: ll-sh1.bestdong.xyz
   type: ss
   udp: true
